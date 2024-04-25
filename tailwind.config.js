@@ -19,7 +19,8 @@ module.exports = {
       satoshi : ['Satoshi', 'sans-serif']
     },
     backgroundImage : {
-      bio : "url('/images/TO.png')"
+      bio : "url('/images/TO.png')",
+      biogrey : "url('/images/TOgrey.png')"
     }
   },
   },

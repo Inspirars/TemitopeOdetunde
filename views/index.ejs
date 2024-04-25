@@ -24,12 +24,52 @@
         </button>
       </div>
     </section>
-    <section class="bg-[#000] py-12 md:py-24">
-      <p class="text-[#E4E7EC]">
+    <section class="bg-[#000] px-5 md:px-14 lg:px-28 py-12 md:py-24 font-satoshi">
+      <p class="text-[#E4E7EC] text-xl md:text-[clamp(20px,2.222vw,32px)] md:leading-9 lg:w-[75%]">
         As a mentor in faith-based personal development, I support individuals in aligning their professional goals with their spiritual values. Together, we embark on a journey towards excellence, driven by passion, expertise, and unwavering faith.
       </p>
+      <div class="grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-16 mt-12 lg:mt-16 text-[#D0D5DD] text-lg md:text-2xl">
+        <p>Pharmacy Consultant and Expert</p>
+        <p>Author and Speaker</p>
+        <p>Leader in Medication Management Consulting</p>
+        <p>Innovator in Regulatory Compliance Solutions</p>
+        <p>Faith-Based Personal Development Mentor</p>
+        <p>Advocate for Care Home Policies and Procedures</p>
+      </div>
 
-
+    </section>
+    <section class="bg-[#1D2739] px-5 md:px-14 lg:px-24 py-12 lg:py-28 font-satoshi">
+      <div class="lg:flex items-center justify-between">
+        <div class="md:flex items-center text-white gap-5">
+          <img src="/images/medal.png" alt="">
+          <h1 class="text-4xl lg:text-7xl font-bold ">Ambassadors <br>
+            <span class="font-normal">in the marketplace</span>
+          </h1>
+        </div>
+        <div class="flex items-center  gap-4">
+          <button class="text-white bg-purple rounded px-4 py-3 md:py-4 md:px-5"> 
+            Visit AIM Page
+          </button>
+          <button class="text-purple border border-purple rounded px-4 py-3 md:py-4 md:px-5">
+            Visit youtube
+          </button>
+        </div>
+      </div>
+      <div class="mt-16 lg:mt-[90px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <% constants.forEach((item,index) => {%>
+          <%if(index == 1 || index == 2){%>
+            <div class="lg:col-span-2 bg-[#D0D5DD] rounded-md lg:rounded-3xl p-5 lg:p-14 ">
+              <img src="/images/Verified.png" alt="verify icon">
+              <p class="text-xl md:text-2xl lg:text-3xl"><%=item %></p>
+            </div>
+            <%return%>
+          <%}%>
+          <div class="bg-biogrey bg-no-repeat bg-[#E4E7EC] rounded-lg lg:rounded-3xl p-5 lg:p-14 ">
+            <img src="/images/Verified.png" alt="verify icon">
+            <p class="text-xl md:text-2xl lg:text-3xl"><%=item %></p>
+          </div>
+        <%})%>
+      </div>
     </section>
     
   
