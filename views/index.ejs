@@ -59,16 +59,33 @@
         <% constants.forEach((item,index) => {%>
           <%if(index == 1 || index == 2){%>
             <div class="lg:col-span-2 bg-[#D0D5DD] rounded-md lg:rounded-3xl p-5 lg:p-14 ">
-              <img src="/images/Verified.png" alt="verify icon">
+              <img src="/images/Verified.png" alt="verify icon" class="pb-5">
               <p class="text-xl md:text-2xl lg:text-3xl"><%=item %></p>
             </div>
             <%return%>
           <%}%>
           <div class="bg-biogrey bg-no-repeat bg-[#E4E7EC] rounded-lg lg:rounded-3xl p-5 lg:p-14 ">
-            <img src="/images/Verified.png" alt="verify icon">
+            <img src="/images/Verified.png" alt="verify icon" class="pb-5">
             <p class="text-xl md:text-2xl lg:text-3xl"><%=item %></p>
           </div>
         <%})%>
+      </div>
+    </section>
+
+    <section class="py-20 px-5 lg:py-[clamp(85px,15.62vh,144px)] bg-[#F9F4FF] lg:pl-[clamp(85px,8.125vw,117px)] font-satoshi">
+      <h1 class="text-w[#000] text-3xl leading-[50px] font-normal lg:text-[64px] lg:leading-[90px] mb-7 md:mb-14">
+        What people say <br> about Temitope
+      </h1>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <% comments.forEach(commentus => {%>
+            <div class="swiper-slide bg-white px-10 py-[61px] rounded-[30px] text-[#475367] cursor-pointer hover:scale-50">
+              <h3 class="mb-5 text-lg md:text-2xl font-normal"><%= commentus.comment%></h3>
+              <h2 class="font-bold text-lg md:text-2xl" ><%= commentus.name %></h2>
+              <p class="text-lg md:text-2xl font-normal"><%= commentus.location%></p>
+            </div>
+          <%})%>
+        </div>
       </div>
     </section>
     
