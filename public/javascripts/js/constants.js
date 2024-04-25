@@ -32,3 +32,53 @@ exports.comments = [
         location : "Lagos, Nigeria"
     },
 ]
+
+exports.bookCover = [
+    {
+        imgSrc : '/images/bookCoverImgs/worship.png',
+        link : ''
+    },
+    {
+        imgSrc : '/images/bookCoverImgs/dove.png',
+        link : ''
+    },
+    {
+        imgSrc : '/images/bookCoverImgs/earthquake.png',
+        link : ''
+    },
+    {
+        imgSrc : '/images/bookCoverImgs/conviction.png',
+        link : ''
+    },
+    {
+        imgSrc : '/images/bookCoverImgs/AmazingLove.png',
+        link : ''
+    },
+]
+
+exports.blog = [
+    {
+        img : "/images/blogCoverImgs/blog1.png",
+        tag : "HEALTH",
+        heading : "Borem ipsum dolor sit amet, consectetur adipiscing elit.",
+        authorDp : '/images/blogCoverImgs/author.png',
+        authorName : 'Tracey Wilson',
+        date : 'April 21, 2024',
+    },
+    {
+        img : "/images/blogCoverImgs/blog1.png",
+        tag : "HEALTH",
+        heading : "Borem ipsum dolor sit amet, consectetur adipiscing elit.",
+        authorDp : '/images/blogCoverImgs/author.png',
+        authorName : 'Tracey Wilson',
+        date : 'April 21, 2024',
+    },
+    {
+        img : "/images/blogCoverImgs/blog1.png",
+        tag : "HEALTH",
+        heading : "Borem ipsum dolor sit amet, consectetur adipiscing elit.",
+        authorDp : '/images/blogCoverImgs/author.png',
+        authorName : 'Tracey Wilson',
+        date : 'April 21, 2024',
+    }
+]
