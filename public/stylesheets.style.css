@@ -779,6 +779,11 @@ video {
   background-color: ;
 }
 
+.bg-\[\#FFF3E1\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 243 225 / var(--tw-bg-opacity));
+}
+
 .bg-bio {
   background-image: url('/images/TO.png');
 }
