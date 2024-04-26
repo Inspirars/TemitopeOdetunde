@@ -4,7 +4,9 @@ var constants = require("../public/javascripts/js/constants");
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express', constants : constants.market, comments : constants.comments, bookCovers: constants.bookCover, blog : constants.blog });
+  const blog = constants.blog
+  const merch = constants.merch
+  res.render('index', { title: 'Express', constants : constants.market, comments : constants.comments, bookCovers: constants.bookCover, blog, merch });
 });
 
 module.exports = router;

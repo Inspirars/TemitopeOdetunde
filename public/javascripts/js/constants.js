@@ -82,3 +82,21 @@ exports.blog = [
         date : 'April 21, 2024',
     }
 ]
+
+exports.merch = [
+    {
+        img : '/images/estyStore/yeshua.png',
+        item : 'Yeshua P Unisex Sweatshirts',
+        price : '$ 8.82',
+    },
+    {
+        img : '/images/estyStore/Ambassador.png',
+        item : 'Ambassador bags',
+        price : '$ 8.82',
+    },
+    {
+        img : '/images/estyStore/joyful.png',
+        item : 'Joyful SweatShirts',
+        price : '$ 8.82',
+    }
+]
