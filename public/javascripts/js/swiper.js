@@ -31,9 +31,6 @@ const swiper2 = new Swiper( '.swiper2',{
       delay: 1500,
       pauseOnMouseEnter : true
     },
-  zoom : {
-    maxRatio : 10
-  },
     loop: true,
     slidesPerView : 1.5,
     spaceBetween : 20,

@@ -18,6 +18,17 @@ module.exports = {
       inter : ["Inter", 'sans-serif'],
       satoshi : ['Satoshi', 'sans-serif']
     },
+    backgroundSize : {
+      '25' : '25%',
+      '35' : '35%',
+      '50' : '50%',
+      '100' : '100%'
+    },
+    backgroundPosition : {
+      'bottome' : '50% 150%',
+      'tope' : '100% -20%'
+    },
+
     backgroundImage : {
       bio : "url('/images/TO.png')",
       biogrey : "url('/images/TOgrey.png')"

@@ -1,6 +1,8 @@
 /*
 ! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
-*//*
+*/
+
+/*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
 */
@@ -8,10 +10,14 @@
 *,
 ::before,
 ::after {
-  box-sizing: border-box; /* 1 */
-  border-width: 0; /* 2 */
-  border-style: solid; /* 2 */
-  border-color: #e5e7eb; /* 2 */
+  box-sizing: border-box;
+  /* 1 */
+  border-width: 0;
+  /* 2 */
+  border-style: solid;
+  /* 2 */
+  border-color: #e5e7eb;
+  /* 2 */
 }
 
 ::before,
@@ -31,15 +37,23 @@
 
 html,
 :host {
-  line-height: 1.5; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
-  -moz-tab-size: 4; /* 3 */
+  line-height: 1.5;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -moz-tab-size: 4;
+  /* 3 */
   -o-tab-size: 4;
-     tab-size: 4; /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
-  font-feature-settings: normal; /* 5 */
-  font-variation-settings: normal; /* 6 */
-  -webkit-tap-highlight-color: transparent; /* 7 */
+     tab-size: 4;
+  /* 3 */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* 4 */
+  font-feature-settings: normal;
+  /* 5 */
+  font-variation-settings: normal;
+  /* 6 */
+  -webkit-tap-highlight-color: transparent;
+  /* 7 */
 }
 
 /*
@@ -48,8 +62,10 @@ html,
 */
 
 body {
-  margin: 0; /* 1 */
-  line-height: inherit; /* 2 */
+  margin: 0;
+  /* 1 */
+  line-height: inherit;
+  /* 2 */
 }
 
 /*
@@ -59,9 +75,12 @@ body {
 */
 
 hr {
-  height: 0; /* 1 */
-  color: inherit; /* 2 */
-  border-top-width: 1px; /* 3 */
+  height: 0;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  border-top-width: 1px;
+  /* 3 */
 }
 
 /*
@@ -116,10 +135,14 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
-  font-feature-settings: normal; /* 2 */
-  font-variation-settings: normal; /* 3 */
-  font-size: 1em; /* 4 */
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  /* 1 */
+  font-feature-settings: normal;
+  /* 2 */
+  font-variation-settings: normal;
+  /* 3 */
+  font-size: 1em;
+  /* 4 */
 }
 
 /*
@@ -157,9 +180,12 @@ sup {
 */
 
 table {
-  text-indent: 0; /* 1 */
-  border-color: inherit; /* 2 */
-  border-collapse: collapse; /* 3 */
+  text-indent: 0;
+  /* 1 */
+  border-color: inherit;
+  /* 2 */
+  border-collapse: collapse;
+  /* 3 */
 }
 
 /*
@@ -173,16 +199,26 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit; /* 1 */
-  font-feature-settings: inherit; /* 1 */
-  font-variation-settings: inherit; /* 1 */
-  font-size: 100%; /* 1 */
-  font-weight: inherit; /* 1 */
-  line-height: inherit; /* 1 */
-  letter-spacing: inherit; /* 1 */
-  color: inherit; /* 1 */
-  margin: 0; /* 2 */
-  padding: 0; /* 3 */
+  font-family: inherit;
+  /* 1 */
+  font-feature-settings: inherit;
+  /* 1 */
+  font-variation-settings: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  font-weight: inherit;
+  /* 1 */
+  line-height: inherit;
+  /* 1 */
+  letter-spacing: inherit;
+  /* 1 */
+  color: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  padding: 0;
+  /* 3 */
 }
 
 /*
@@ -203,9 +239,12 @@ button,
 input:where([type='button']),
 input:where([type='reset']),
 input:where([type='submit']) {
-  -webkit-appearance: button; /* 1 */
-  background-color: transparent; /* 2 */
-  background-image: none; /* 2 */
+  -webkit-appearance: button;
+  /* 1 */
+  background-color: transparent;
+  /* 2 */
+  background-image: none;
+  /* 2 */
 }
 
 /*
@@ -247,8 +286,10 @@ Correct the cursor style of increment and decrement buttons in Safari.
 */
 
 [type='search'] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
 }
 
 /*
@@ -265,8 +306,10 @@ Remove the inner padding in Chrome and Safari on macOS.
 */
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
 }
 
 /*
@@ -317,6 +360,7 @@ menu {
 /*
 Reset default styling for dialogs.
 */
+
 dialog {
   padding: 0;
 }
@@ -335,14 +379,18 @@ textarea {
 */
 
 input::-moz-placeholder, textarea::-moz-placeholder {
-  opacity: 1; /* 1 */
-  color: #9ca3af; /* 2 */
+  opacity: 1;
+  /* 1 */
+  color: #9ca3af;
+  /* 2 */
 }
 
 input::placeholder,
 textarea::placeholder {
-  opacity: 1; /* 1 */
-  color: #9ca3af; /* 2 */
+  opacity: 1;
+  /* 1 */
+  color: #9ca3af;
+  /* 2 */
 }
 
 /*
@@ -357,6 +405,7 @@ button,
 /*
 Make sure disabled buttons don't get the pointer cursor.
 */
+
 :disabled {
   cursor: default;
 }
@@ -375,8 +424,10 @@ audio,
 iframe,
 embed,
 object {
-  display: block; /* 1 */
-  vertical-align: middle; /* 2 */
+  display: block;
+  /* 1 */
+  vertical-align: middle;
+  /* 2 */
 }
 
 /*
@@ -390,6 +441,7 @@ video {
 }
 
 /* Make elements with the HTML hidden attribute stay hidden by default */
+
 [hidden] {
   display: none;
 }
@@ -514,6 +566,10 @@ video {
   bottom: 0px;
 }
 
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -546,6 +602,10 @@ video {
   margin-top: 0.75rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -558,8 +618,12 @@ video {
   display: none;
 }
 
-.w-\[75\%\] {
-  width: 75%;
+.max-h-\[500px\] {
+  max-height: 500px;
+}
+
+.w-1 {
+  width: 0.25rem;
 }
 
 .w-\[90\%\] {
@@ -573,6 +637,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.w-20 {
+  width: 5rem;
 }
 
 .max-w-\[clamp\(650px\2c 62vw\2c 897px\)\] {
@@ -611,6 +683,10 @@ video {
   justify-content: space-between;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .gap-3 {
   gap: 0.75rem;
 }
@@ -627,8 +703,16 @@ video {
   gap: 1.5rem;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
 .gap-\[72px\] {
   gap: 72px;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
 }
 
 .text-balance {
@@ -703,6 +787,16 @@ video {
   background-color: rgb(249 244 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#FAAF40\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 175 64 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#FFF3E1\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 243 225 / var(--tw-bg-opacity));
+}
+
 .bg-black-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(35 31 32 / var(--tw-bg-opacity));
@@ -731,6 +825,22 @@ video {
   background-image: url('/images/TOgrey.png');
 }
 
+.bg-100 {
+  background-size: 100%;
+}
+
+.bg-50 {
+  background-size: 50%;
+}
+
+.bg-bottome {
+  background-position: 50% 150%;
+}
+
+.bg-tope {
+  background-position: 100% -20%;
+}
+
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
@@ -750,6 +860,11 @@ video {
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+
+.px-14 {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
 }
 
 .px-2 {
@@ -777,9 +892,24 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-11 {
+  padding-top: 2.75rem;
+  padding-bottom: 2.75rem;
+}
+
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
 }
 
 .py-2 {
@@ -797,6 +927,11 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .py-\[61px\] {
   padding-top: 61px;
   padding-bottom: 61px;
@@ -804,10 +939,6 @@ video {
 
 .pb-5 {
   padding-bottom: 1.25rem;
-}
-
-.pt-20 {
-  padding-top: 5rem;
 }
 
 .font-inter {
@@ -853,6 +984,11 @@ video {
   line-height: 1rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -886,6 +1022,11 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.text-\[\#181A2A\] {
+  --tw-text-opacity: 1;
+  color: rgb(24 26 42 / var(--tw-text-opacity));
+}
+
 .text-\[\#475367\] {
   --tw-text-opacity: 1;
   color: rgb(71 83 103 / var(--tw-text-opacity));
@@ -904,6 +1045,11 @@ video {
 .text-\[\#E4E7EC\] {
   --tw-text-opacity: 1;
   color: rgb(228 231 236 / var(--tw-text-opacity));
+}
+
+.text-\[\#E8E8EA\] {
+  --tw-text-opacity: 1;
+  color: rgb(232 232 234 / var(--tw-text-opacity));
 }
 
 .text-black-200 {
@@ -940,41 +1086,43 @@ video {
 
 .duration-700 {
   transition-duration: 700ms;
-} 
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
-@import url('https://fonts.cdnfonts.com/css/satoshi');
+}
 
 /* :root {
     font-size: 10px;
 } */
+
 /* .swiper-slide:hover{
     transform: scale(0.4);
 } */
+
 .hover\:scale-90:hover {
   --tw-scale-x: .9;
   --tw-scale-y: .9;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+
 .hover\:bg-grey-100:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(229 230 231 / var(--tw-bg-opacity));
 }
+
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+
 .hover\:text-black-200:hover {
   --tw-text-opacity: 1;
   color: rgb(35 31 32 / var(--tw-text-opacity));
 }
+
 .hover\:text-purple:hover {
   --tw-text-opacity: 1;
   color: rgb(149 70 232 / var(--tw-text-opacity));
 }
-@media (min-width: 768px) {
 
+@media (min-width: 768px) {
   .md\:bottom-28 {
     bottom: 7rem;
   }
@@ -987,20 +1135,49 @@ video {
     margin-bottom: 3.5rem;
   }
 
+  .md\:mt-3 {
+    margin-top: 0.75rem;
+  }
+
   .md\:mt-4 {
     margin-top: 1rem;
+  }
+
+  .md\:mt-5 {
+    margin-top: 1.25rem;
   }
 
   .md\:mt-6 {
     margin-top: 1.5rem;
   }
 
-  .md\:flex {
-    display: flex;
+  .md\:w-\[75\%\] {
+    width: 75%;
+  }
+
+  .md\:w-max {
+    width: -moz-max-content;
+    width: max-content;
+  }
+
+  .md\:w-28 {
+    width: 7rem;
+  }
+
+  .md\:w-36 {
+    width: 9rem;
   }
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:items-center {
+    align-items: center;
   }
 
   .md\:gap-16 {
@@ -1009,6 +1186,10 @@ video {
 
   .md\:gap-5 {
     gap: 1.25rem;
+  }
+
+  .md\:bg-25 {
+    background-size: 25%;
   }
 
   .md\:p-5 {
@@ -1045,6 +1226,11 @@ video {
     padding-bottom: 2rem;
   }
 
+  .md\:py-14 {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -1053,6 +1239,11 @@ video {
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .md\:text-\[clamp\(20px\2c 2\.222vw\2c 32px\)\] {
@@ -1078,10 +1269,34 @@ video {
     line-height: 2.25rem;
   }
 }
-@media (min-width: 1024px) {
 
+@media (min-width: 1024px) {
   .lg\:col-span-2 {
     grid-column: span 2 / span 2;
+  }
+
+  .lg\:col-span-3 {
+    grid-column: span 3 / span 3;
+  }
+
+  .lg\:col-start-1 {
+    grid-column-start: 1;
+  }
+
+  .lg\:col-start-3 {
+    grid-column-start: 3;
+  }
+
+  .lg\:col-end-3 {
+    grid-column-end: 3;
+  }
+
+  .lg\:col-end-6 {
+    grid-column-end: 6;
+  }
+
+  .lg\:mb-28 {
+    margin-bottom: 7rem;
   }
 
   .lg\:mt-16 {
@@ -1116,8 +1331,13 @@ video {
     width: 75%;
   }
 
-  .lg\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+  .lg\:w-max {
+    width: -moz-max-content;
+    width: max-content;
+  }
+
+  .lg\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
   .lg\:flex-row {
@@ -1136,6 +1356,10 @@ video {
     gap: 2.75rem;
   }
 
+  .lg\:gap-12 {
+    gap: 3rem;
+  }
+
   .lg\:gap-5 {
     gap: 1.25rem;
   }
@@ -1146,6 +1370,10 @@ video {
 
   .lg\:rounded-3xl {
     border-radius: 1.5rem;
+  }
+
+  .lg\:bg-100 {
+    background-size: 100%;
   }
 
   .lg\:p-14 {
@@ -1167,6 +1395,11 @@ video {
     padding-right: 7rem;
   }
 
+  .lg\:px-36 {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+
   .lg\:px-\[102px\] {
     padding-left: 102px;
     padding-right: 102px;
@@ -1182,6 +1415,11 @@ video {
     padding-bottom: 7rem;
   }
 
+  .lg\:py-\[77px\] {
+    padding-top: 77px;
+    padding-bottom: 77px;
+  }
+
   .lg\:py-\[clamp\(85px\2c 15\.62vh\2c 144px\)\] {
     padding-top: clamp(85px,15.62vh,144px);
     padding-bottom: clamp(85px,15.62vh,144px);
@@ -1193,6 +1431,10 @@ video {
 
   .lg\:pl-\[clamp\(85px\2c 8\.125vw\2c 117px\)\] {
     padding-left: clamp(85px,8.125vw,117px);
+  }
+
+  .lg\:pt-\[76px\] {
+    padding-top: 76px;
   }
 
   .lg\:text-2xl {
@@ -1215,6 +1457,10 @@ video {
     line-height: 1;
   }
 
+  .lg\:text-\[32px\] {
+    font-size: 32px;
+  }
+
   .lg\:text-\[40px\] {
     font-size: 40px;
   }
@@ -1230,6 +1476,15 @@ video {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .lg\:leading-\[56px\] {
+    line-height: 56px;
   }
 
   .lg\:leading-\[90px\] {
