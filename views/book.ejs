@@ -1,0 +1,44 @@
+<%- include("./layout/header.ejs") %>
+<main class="bg-white">
+    <nav class="flex justify-between items-center py-4 px-4 md:px-10 md:pt-8 lg:px-20 font-inter fixed w-full overflow-hidden" id="nav">
+        <div class="lg:flex items-center gap-[72px]">
+            <a href="/"><img src="/images/logo.svg" alt="Temitope svg"></a>
+            <ul class=" hidden lg:flex list-none lg:gap-11 text-base text-black-200 font-normal">
+              <a href="">
+                <li>About</li>
+              </a>
+              <a href="/books">
+                <li>Book</li>
+              </a>
+              <a href="">
+                <li>Shop</li>
+              </a>
+              <a href="">
+                <li>AIM</li>
+              </a>
+              <a href="">
+                <li>BLOG</li>
+              </a>
+            </ul>
+        </div>
+        <img src="/images/hamburger.png" alt="" class="lg:hidden">
+        <div class="hidden lg:flex" >
+            <button class="text-lg md:px-5 md:py-4 rounded font-semibold bg-purple text-white border border-purple hover:bg-grey-100 hover:text-purple transition-all duration-700">
+                Join Community
+            </button>
+        </div>
+      </nav>
+    <section class="px-5 md:px-14 lg:px-24 pt-24 py-12 lg:pt-44 lg:py-28  font-satoshi flex flex-col justify-center items-center">
+        <h1 class="text-[#000] text-3xl md:text-5xl lg:text-[64px] lg:leading-10 mb-3 lg:mb-5 font-bold ">
+            Now Selling!
+        </h1>
+        <h4 class="text-[#4B587C] text-base md:text-lg lg:text-2xl lg:leading-10">
+            Purchase any of my books and get a gift.
+        </h4>
+    </section>
+    <section class="">
+
+    </section>
+
+</main>
+<%- include("./layout/footer.ejs") %>

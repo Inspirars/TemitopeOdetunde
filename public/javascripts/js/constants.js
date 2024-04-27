@@ -100,3 +100,14 @@ exports.merch = [
         price : '$ 8.82',
     }
 ]
+
+exports.books = [
+    {
+        img1 : '/images/bookCoverImgs/ambassadors.svg',
+        img2 : '/images/bookCoverImgs/ambassadors.svg',
+        bookName : 'The Ambassador',
+        brief : "Samuel Dagunduro's book offers a concise study on being a soldier for Christ, addressing topics often overlooked in today's discussions. Just as an active-duty soldier serves full-time, our lives as disciples revolve around defending the kingdom of God, entitling us to its benefits.",
+        link : ""
+    },
+
+]

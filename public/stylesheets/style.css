@@ -570,10 +570,6 @@ video {
   bottom: 0px;
 }
 
-.z-30 {
-  z-index: 30;
-}
-
 .mb-14 {
   margin-bottom: 3.5rem;
 }
@@ -612,6 +608,10 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
 }
 
 .flex {
@@ -936,8 +936,30 @@ video {
   padding-bottom: 61px;
 }
 
+.py-40 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 .pb-5 {
   padding-bottom: 1.25rem;
+}
+
+.pt-24 {
+  padding-top: 6rem;
+}
+
+.pb-11 {
+  padding-bottom: 2.75rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .font-inter {
@@ -1099,6 +1121,7 @@ video {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 30;
 }
 
 .hover\:scale-90:hover {
@@ -1217,9 +1240,13 @@ video {
     padding-bottom: 1rem;
   }
 
-  .md\:py-8 {
+  .md\:py-11 {
+    padding-top: 2.75rem;
+    padding-bottom: 2.75rem;
+  }
+
+  .md\:pt-8 {
     padding-top: 2rem;
-    padding-bottom: 2rem;
   }
 
   .md\:text-2xl {
@@ -1304,6 +1331,10 @@ video {
 
   .lg\:mt-\[clamp\(20px\2c 5\.54vh\2c 48px\)\] {
     margin-top: clamp(20px,5.54vh,48px);
+  }
+
+  .lg\:mb-5 {
+    margin-bottom: 1.25rem;
   }
 
   .lg\:flex {
@@ -1416,6 +1447,31 @@ video {
     padding-bottom: clamp(85px,15.62vh,144px);
   }
 
+  .lg\:py-\[clamp\(85px\2c 15\.62vh\2c 14px\)\] {
+    padding-top: clamp(85px,15.62vh,14px);
+    padding-bottom: clamp(85px,15.62vh,14px);
+  }
+
+  .lg\:py-\[clamp\(85px\2c 15\.62vh\2c 1px\)\] {
+    padding-top: clamp(85px,15.62vh,1px);
+    padding-bottom: clamp(85px,15.62vh,1px);
+  }
+
+  .lg\:py-\[clamp\(85px\2c 15\.62vh\2c 164px\)\] {
+    padding-top: clamp(85px,15.62vh,164px);
+    padding-bottom: clamp(85px,15.62vh,164px);
+  }
+
+  .lg\:py-\[clamp\(85px\2c 15\.62vh\2c 1874px\)\] {
+    padding-top: clamp(85px,15.62vh,1874px);
+    padding-bottom: clamp(85px,15.62vh,1874px);
+  }
+
+  .lg\:py-\[clamp\(85px\2c 15\.62vh\2c 174px\)\] {
+    padding-top: clamp(85px,15.62vh,174px);
+    padding-bottom: clamp(85px,15.62vh,174px);
+  }
+
   .lg\:pl-\[150px\] {
     padding-left: 150px;
   }
@@ -1426,6 +1482,14 @@ video {
 
   .lg\:pt-\[76px\] {
     padding-top: 76px;
+  }
+
+  .lg\:pt-24 {
+    padding-top: 6rem;
+  }
+
+  .lg\:pt-44 {
+    padding-top: 11rem;
   }
 
   .lg\:text-2xl {
@@ -1472,6 +1536,10 @@ video {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:leading-10 {
+    line-height: 2.5rem;
   }
 
   .lg\:leading-\[56px\] {

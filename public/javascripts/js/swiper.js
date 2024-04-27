@@ -90,12 +90,15 @@ const nav = document.getElementById('nav');
 var sticky = nav.offsetTop
 
 const getScroll = ()=>{
+  console.log(sticky)
+  console.log(window.scrollY)
   if(window.scrollY >= sticky){
     nav.classList.add('sticky')
   }else{
     nav.classList.remove('sticky')
   }
-  window.addEventListener('scroll',getScroll)
 
 }
+
+window.addEventListener('scroll',getScroll)
 
