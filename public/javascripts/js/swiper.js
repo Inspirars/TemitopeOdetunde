@@ -92,11 +92,14 @@ var sticky = nav.offsetTop
 const getScroll = ()=>{
   console.log(sticky)
   console.log(window.scrollY)
-  if(window.scrollY >= sticky){
+  if(window.scrollY > sticky){
     nav.classList.add('sticky')
+    return
   }else{
-    nav.classList.remove('sticky')
+    
   }
+  // nav.style.cssText = "background-color: #fff;"
+    nav.classList.remove('sticky')
 
 }
 

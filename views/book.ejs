@@ -1,6 +1,6 @@
 <%- include("./layout/header.ejs") %>
 <main class="bg-white">
-    <nav class="flex justify-between items-center py-4 px-4 md:px-10 md:pt-8 lg:px-20 font-inter fixed w-full overflow-hidden" id="nav">
+    <nav class="flex justify-between items-center py-4 px-4 md:px-10 md:pt-8 lg:px-20 font-inter fixed w-full overflow-hidden bg-white" id="nav">
         <div class="lg:flex items-center gap-[72px]">
             <a href="/"><img src="/images/logo.svg" alt="Temitope svg"></a>
             <ul class=" hidden lg:flex list-none lg:gap-11 text-base text-black-200 font-normal">
@@ -13,7 +13,7 @@
               <a href="">
                 <li>Shop</li>
               </a>
-              <a href="">
+              <a href="/aim">
                 <li>AIM</li>
               </a>
               <a href="">
@@ -36,8 +36,28 @@
             Purchase any of my books and get a gift.
         </h4>
     </section>
-    <section class="">
-
+    <section class=" px-5 md:px-14 py-14 md:py-28 lg:py-36 lg:px-[clamp(85px,10.277vw,148px)]">
+        <%books.forEach(book =>{%>
+            <div class="pb-24 md:pb-36 lg:pb-48 grid grid-cols-1 lg:grid-cols-2 lg:gap-24">
+                <div class="grid grid-cols-2 gap-3 md:gap-6   justify-center">
+                    <img class="book w-full " src=<%=book.img1 %> alt="book cover" >
+                    <img class="book w-full " src=<%=book.img2 %> alt="book cover">
+                </div>
+                <div>
+                    <h2 class="text-[#000] pt-9 lg:pt-0 pb-4 md:pb-6 text-2xl md:text-3xl lg:text-[40px] font-medium">
+                        <%=book.bookName %>
+                    </h2>
+                    <h4 class="text-[#4B587C] text-base md:text-lg lg:text-[clamp(18px,1.66vw,24px)] pb-8 md:pb-11">
+                        <%=book.brief %>
+                    </h4>
+                    <a href=<%= book.link %>>
+                        <button class="bg-black-200 border border-black-200 text-white hover:bg-white hover:text-black-200 transition-all duration-700 py-2 px-3 md:py-4 md:px-5 rounded text-xs md:text-lg">
+                            Buy this Book
+                        </button>
+                    </a>
+                </div>
+            </div>
+        <%})%>
     </section>
 
 </main>
