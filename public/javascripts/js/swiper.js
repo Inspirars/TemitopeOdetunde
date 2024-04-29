@@ -105,3 +105,25 @@ const getScroll = ()=>{
 
 window.addEventListener('scroll',getScroll)
 
+anime({
+  targets : '.Temi path',
+  strokeDashoffset : [anime.setDashoffset,0],
+  easing: 'easeInOutSine',
+  duration: 1000,
+  delay: function(el, i) { return i * 95 },
+  direction: 'alternate',
+  loop: true
+})
+
+
+
+const dee = ()=>{
+  setTimeout(function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("myDiv").style.display = "block";
+  },3500)
+}
+
+
+
+

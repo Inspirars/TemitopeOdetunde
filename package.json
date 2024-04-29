@@ -9,6 +9,7 @@
     "server": "SET DEBUG=temitopeodetunde:* & npm run dev"
   },
   "dependencies": {
+    "animejs": "^3.2.2",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "ejs": "~2.6.1",
