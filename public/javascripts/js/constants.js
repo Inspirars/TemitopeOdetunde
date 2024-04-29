@@ -139,3 +139,11 @@ exports.books = [
     },
 
 ]
+
+exports.visions = [
+    "Encourage authentic born-again Christians who are advancing God's kingdom in the marketplace ", "To dispel the myth that to operate in the marketplace, you must compromise your Christian faith.", "To equip and educate born-again Christians on representing Christ in their sphere of influence and being an agent of change."
+]
+
+exports.values = [
+    "We hold the Scriptures (holy bible) to be the last authority on all questions of faith and that they were given and inspired by God, were without error, and could be completely trusted.", "There is only one God manifest in three (Father, Son, and Holy Spirit), who is the everlasting creator and in him of all things consists of.", "We affirm the deity of our Lord Jesus Christ, as well as the virgin birth, sinless life, physical resurrection, ascension to the Father's right hand, and imminent, glorious return of the Lord.", "We believe that for a man to be absolutely saved from sin, they need redemption by the blood of our Lord Jesus Christ and regeneration by the Holy Spirit.", "We firmly believe that both the saved and the lost will rise again—the former to eternal life, the latter to condemnation to eternal punishment"
+]

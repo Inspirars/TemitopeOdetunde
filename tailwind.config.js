@@ -28,10 +28,18 @@ module.exports = {
       'bottome' : '50% 150%',
       'tope' : '100% -20%'
     },
-
     backgroundImage : {
       bio : "url('/images/TO.png')",
       biogrey : "url('/images/TOgrey.png')"
+    },
+    keyframes : {
+      wiggle : {
+        "0%, 100%" : { transform : 'rotate(0deg)'},
+        "50%" : {transform : 'rotate(50deg)'}
+      }
+    },
+    animation : {
+      wiggle : 'wiggle 1s ease-in-out infinite'
     }
   },
   },
