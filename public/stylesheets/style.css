@@ -570,30 +570,6 @@ video {
   bottom: 0px;
 }
 
-.col-start-1 {
-  grid-column-start: 1;
-}
-
-.col-start-2 {
-  grid-column-start: 2;
-}
-
-.col-start-4 {
-  grid-column-start: 4;
-}
-
-.col-end-2 {
-  grid-column-end: 2;
-}
-
-.col-end-4 {
-  grid-column-end: 4;
-}
-
-.col-end-5 {
-  grid-column-end: 5;
-}
-
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -956,11 +932,6 @@ video {
   padding-right: 1.25rem;
 }
 
-.px-\[86px\] {
-  padding-left: 86px;
-  padding-right: 86px;
-}
-
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -1004,6 +975,11 @@ video {
 .py-\[61px\] {
   padding-top: 61px;
   padding-bottom: 61px;
+}
+
+.py-36 {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
 }
 
 .pb-10 {
@@ -1301,6 +1277,30 @@ svg.thin{
     left: 3rem;
   }
 
+  .md\:col-start-1 {
+    grid-column-start: 1;
+  }
+
+  .md\:col-start-2 {
+    grid-column-start: 2;
+  }
+
+  .md\:col-start-4 {
+    grid-column-start: 4;
+  }
+
+  .md\:col-end-2 {
+    grid-column-end: 2;
+  }
+
+  .md\:col-end-4 {
+    grid-column-end: 4;
+  }
+
+  .md\:col-end-5 {
+    grid-column-end: 5;
+  }
+
   .md\:mb-12 {
     margin-bottom: 3rem;
   }
@@ -1323,6 +1323,14 @@ svg.thin{
 
   .md\:mt-6 {
     margin-top: 1.5rem;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:grid {
+    display: grid;
   }
 
   .md\:w-3\/4 {
@@ -1365,6 +1373,10 @@ svg.thin{
     gap: 1.5rem;
   }
 
+  .md\:gap-0 {
+    gap: 0px;
+  }
+
   .md\:gap-x-14 {
     -moz-column-gap: 3.5rem;
          column-gap: 3.5rem;
@@ -1396,6 +1408,11 @@ svg.thin{
     padding-right: 3.5rem;
   }
 
+  .md\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
   .md\:px-24 {
     padding-left: 6rem;
     padding-right: 6rem;
@@ -1424,6 +1441,11 @@ svg.thin{
   .md\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+
+  .md\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .md\:pb-11 {
@@ -1704,6 +1726,11 @@ svg.thin{
     padding-right: 102px;
   }
 
+  .lg\:px-\[86px\] {
+    padding-left: 86px;
+    padding-right: 86px;
+  }
+
   .lg\:px-\[clamp\(100px\2c 13\.33vw\2c 191px\)\] {
     padding-left: clamp(100px,13.33vw,191px);
     padding-right: clamp(100px,13.33vw,191px);
@@ -1767,6 +1794,36 @@ svg.thin{
   .lg\:py-\[clamp\(85px\2c 15\.62vh\2c 174px\)\] {
     padding-top: clamp(85px,15.62vh,174px);
     padding-bottom: clamp(85px,15.62vh,174px);
+  }
+
+  .lg\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .lg\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .lg\:py-\[13\] {
+    padding-top: 13;
+    padding-bottom: 13;
+  }
+
+  .lg\:py-\[138\] {
+    padding-top: 138;
+    padding-bottom: 138;
+  }
+
+  .lg\:py-\[138px\] {
+    padding-top: 138px;
+    padding-bottom: 138px;
+  }
+
+  .lg\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   .lg\:pb-14 {
