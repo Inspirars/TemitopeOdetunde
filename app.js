@@ -11,6 +11,7 @@ var bookRouter = require('./routes/books')
 var aimRouter = require('./routes/aim')
 const aboutRouter = require("./routes/about")
 var usersRouter = require('./routes/users');
+var blogRouter = require('./routes/blog')
 
 
 var app = express();
@@ -42,13 +43,7 @@ app.use('/users', usersRouter);
 app.use("/books", bookRouter)
 app.use("/about",aboutRouter)
 app.use("/aim", aimRouter)
-app.get("/create",(req,res)=>{
-  res.render("create", {title : "create"})
-})
-app.post("/create",(req,res,next)=>{
-  console.log(req.body)
-})
-
+app.use("/blog", blogRouter)
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));

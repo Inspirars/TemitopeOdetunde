@@ -671,8 +671,20 @@ video {
   width: 100%;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[60\%\] {
+  width: 60%;
+}
+
 .max-w-\[clamp\(650px\2c 62vw\2c 897px\)\] {
   max-width: clamp(650px,62vw,897px);
+}
+
+.grow {
+  flex-grow: 1;
 }
 
 @keyframes wiggle {
@@ -721,6 +733,10 @@ video {
   align-items: center;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -735,10 +751,6 @@ video {
 
 .gap-12 {
   gap: 3rem;
-}
-
-.gap-2 {
-  gap: 0.5rem;
 }
 
 .gap-3 {
@@ -811,6 +823,11 @@ video {
 
 .border {
   border-width: 1px;
+}
+
+.border-\[\#E8E8EA\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(232 232 234 / var(--tw-border-opacity));
 }
 
 .border-black-200 {
@@ -924,6 +941,11 @@ video {
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .p-3 {
@@ -1112,6 +1134,10 @@ video {
   line-height: 1rem;
 }
 
+.text-\[clamp\(14px\2c 4\.205vw\2c 18px\)\] {
+  font-size: clamp(14px,4.205vw,18px);
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1138,6 +1164,10 @@ video {
 
 .leading-none {
   line-height: 1;
+}
+
+.leading-10 {
+  line-height: 2.5rem;
 }
 
 .text-\[\#000\] {
@@ -1208,6 +1238,14 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[\#\] {
+  color: #;
 }
 
 .transition-all {
@@ -1391,6 +1429,14 @@ svg.thin{
     width: 75%;
   }
 
+  .md\:w-\[\] {
+    width: ;
+  }
+
+  .md\:w-\[80\%\] {
+    width: 80%;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1415,10 +1461,6 @@ svg.thin{
     gap: 4rem;
   }
 
-  .md\:gap-5 {
-    gap: 1.25rem;
-  }
-
   .md\:gap-6 {
     gap: 1.5rem;
   }
@@ -1430,6 +1472,10 @@ svg.thin{
 
   .md\:gap-y-14 {
     row-gap: 3.5rem;
+  }
+
+  .md\:overflow-x-auto {
+    overflow-x: auto;
   }
 
   .md\:bg-25 {
@@ -1575,6 +1621,10 @@ svg.thin{
 }
 
 @media (min-width: 1024px) {
+  .lg\:bottom-6 {
+    bottom: 1.5rem;
+  }
+
   .lg\:bottom-\[-30px\] {
     bottom: -30px;
   }
@@ -1675,8 +1725,8 @@ svg.thin{
     width: 49%;
   }
 
-  .lg\:w-\[50vw\] {
-    width: 50vw;
+  .lg\:w-\[49\.9vw\] {
+    width: 49.9vw;
   }
 
   .lg\:w-\[55vw\] {
@@ -1685,6 +1735,10 @@ svg.thin{
 
   .lg\:w-\[58vw\] {
     width: 58vw;
+  }
+
+  .lg\:w-\[68\.68vw\] {
+    width: 68.68vw;
   }
 
   .lg\:w-\[70\%\] {
@@ -1704,8 +1758,16 @@ svg.thin{
     width: max-content;
   }
 
+  .lg\:w-\[60\%\] {
+    width: 60%;
+  }
+
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-4 {
@@ -1910,31 +1972,6 @@ svg.thin{
     padding-bottom: clamp(85px,15.62vh,174px);
   }
 
-  .lg\:px-48 {
-    padding-left: 12rem;
-    padding-right: 12rem;
-  }
-
-  .lg\:px-4 {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  .lg\:px-40 {
-    padding-left: 10rem;
-    padding-right: 10rem;
-  }
-
-  .lg\:px-44 {
-    padding-left: 11rem;
-    padding-right: 11rem;
-  }
-
-  .lg\:px-3 {
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-  }
-
   .lg\:pb-14 {
     padding-bottom: 3.5rem;
   }
@@ -2009,11 +2046,6 @@ svg.thin{
     line-height: 2.25rem;
   }
 
-  .lg\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
   .lg\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
@@ -2035,12 +2067,20 @@ svg.thin{
     font-size: clamp(16px,1.388vw,20px);
   }
 
+  .lg\:text-\[clamp\(16px\2c 1\.38vw\2c 20px\)\] {
+    font-size: clamp(16px,1.38vw,20px);
+  }
+
   .lg\:text-\[clamp\(18px\2c 1\.66vw\2c 24px\)\] {
     font-size: clamp(18px,1.66vw,24px);
   }
 
   .lg\:text-\[clamp\(18px\2c 1\.6vw\2c 24px\)\] {
     font-size: clamp(18px,1.6vw,24px);
+  }
+
+  .lg\:text-\[clamp\(18px1\.66vw\2c 24px\)\] {
+    font-size: clamp(18px1.66vw,24px);
   }
 
   .lg\:text-\[clamp\(24px\2c 2\.22vw\2c 32px\)\] {
@@ -2057,6 +2097,10 @@ svg.thin{
 
   .lg\:text-\[clamp\(45px\2c 3\.88vw\2c 56px\)\] {
     font-size: clamp(45px,3.88vw,56px);
+  }
+
+  .lg\:text-\[clamp\(45px\2c 4vw\2c 64px\)\] {
+    font-size: clamp(45px,4vw,64px);
   }
 
   .lg\:text-\[clamp\(45px\2c 5\.83vw\2c 84px\)\] {
@@ -2080,9 +2124,8 @@ svg.thin{
     line-height: 1.5rem;
   }
 
-  .lg\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+  .lg\:text-\[clamp\(18px\2c 1\.666vw\2c 24px\)\] {
+    font-size: clamp(18px,1.666vw,24px);
   }
 
   .lg\:leading-10 {
@@ -2119,5 +2162,9 @@ svg.thin{
 
   .lg\:leading-none {
     line-height: 1;
+  }
+
+  .lg\:text-\[\] {
+    color: ;
   }
 }

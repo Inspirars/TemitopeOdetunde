@@ -1,0 +1,59 @@
+<%- include("./layout/header.ejs")%>
+<nav class="flex bg-grey-100 justify-between items-center py-1 px-4 md:px-10 md:pt-8 lg:px-20 font-inter  fixed w-full overflow-hidden " id="nav">
+  <div class="lg:flex items-center gap-[72px]">
+      <a href="/"><img src="/images/logo.svg" alt="Temitope svg"></a>
+      <ul class=" hidden lg:flex list-none lg:gap-11 text-base text-black-200 font-normal">
+        <a href="/about">
+          <li>About</li>
+        </a>
+        <a href="/books">
+          <li>Book</li>
+        </a>
+        <a href="/shop">
+          <li>Shop</li>
+        </a>
+        <a href="/aim">
+          <li>AIM</li>
+        </a>
+        <a href="/blog">
+          <li>BLOG</li>
+        </a>
+      </ul>
+  </div>
+  <img src="/images/hamburger.png" alt="" class="lg:hidden">
+  <div class="hidden lg:flex" >
+      <button class="text-lg md:px-5 md:py-4 rounded font-semibold bg-purple text-white border border-purple hover:bg-grey-100 hover:text-purple transition-all duration-700">
+          Join Community
+      </button>
+  </div>
+</nav>
+<section class=" px-5 md:px-14  pt-24 pb-11 lg:pt-44 lg:px-[102px] py-12 lg:py-20 font-satoshi">
+    <div class="flex flex-col gap-4 text-white items-center">
+      <h3 class="text-2xl md:text-3xl text-[#000] lg:text-[clamp(45px,4vw,64px)] text-center font-bold lg:leading-10">Learn, Grow, Discover</h3>
+      <p class="text-[#4B587C] text-base md:text-lg lg:text-[clamp(18px,1.666vw,24px)] w-[90%] md:w-[80%] lg:w-[60%] text-center lg:leading-10">
+        In the pursuit of personal and professional growth, there are endless opportunities to learn, grow, and discover.
+      </p>
+    </div>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 mt-10 lg:mt-28 gap-6 ">
+        <% blog.forEach(cover => {%>
+          <div class=" bg-white p-4 rounded-xl border border-[#E8E8EA]">
+            <a href=<%=cover.url%>>
+              <img class="w-full" src=<%=cover.image%> alt="cover">
+            <div>
+              <p class="bg-[#F2E5FF] rounded-md mt-3 md:mt-6 py-1 px-2 w-fit text-purple text-xs md:text-sm font-medium"><%=cover.tag %></p> 
+              <h2 class="mt-2 md:mt-4 text-lg font-bold lg:text-[clamp(18px1.66vw,24px)]"><%=cover.title %></h2>
+              <div class="flex items-center gap-3 lg:gap-5 mt-3">
+                <img src="/images/blogCoverImgs/author.png" alt="author">
+                <p class="text-xs md:text-base">TemiTope Odetude</p>
+                <p class="text-xs lg:text-base"><%=cover.formattedDate%></p>
+              </div>
+            </div>
+            </a>
+          </div>
+        <%})%>
+      </div>
+    </div>
+  </div>
+  </section>
+
+<%- include("./layout/footer.ejs")%>

@@ -59,8 +59,9 @@ const blogswiper = new Swiper( '.blogswiper',{
       },
       1024 :{
         slidesPerView : 3,
+        
       }
-    }
+    },
 }
 )
 
