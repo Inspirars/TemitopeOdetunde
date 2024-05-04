@@ -11,6 +11,8 @@
 
 // 32px = clamp(24px,2.22vw,32px)
 
+// 36px = clamp(28px,2.5vw,36px)
+
 // 40px clamp(30px,2.77vw,40px)
 
 // 64px clamp(45px,4vw,64px)

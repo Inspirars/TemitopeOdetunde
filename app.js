@@ -12,6 +12,7 @@ var aimRouter = require('./routes/aim')
 const aboutRouter = require("./routes/about")
 var usersRouter = require('./routes/users');
 var blogRouter = require('./routes/blog')
+const storyRouter = require("./routes/story")
 
 
 var app = express();
@@ -44,6 +45,8 @@ app.use("/books", bookRouter)
 app.use("/about",aboutRouter)
 app.use("/aim", aimRouter)
 app.use("/blog", blogRouter)
+app.use("/",storyRouter)
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));

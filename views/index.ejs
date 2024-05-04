@@ -189,7 +189,7 @@
           <div class="swiper-wrapper  ">
             <% blog.forEach(cover => {%>
               <div class="swiper-slide bg-white p-4 rounded-xl ">
-                <a href=<%=cover.url%>>
+                <a class="blogButton" href=<%=cover.url%>>
                   <img class="w-full" src=<%=cover.image%> alt="cover">
                 <div>
                   <p class="bg-[#F2E5FF] rounded-md mt-3 md:mt-6 py-1 px-2 w-fit text-purple text-xs md:text-sm font-medium"><%=cover.tag %></p> 
