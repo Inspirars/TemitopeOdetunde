@@ -186,17 +186,17 @@
           </button>
         </div>
         <div class="blogswiper mt-10 lg:mt-28">
-          <div class="swiper-wrapper ">
+          <div class="swiper-wrapper flex justify-center ">
             <% blog.forEach(cover => {%>
               <div class="swiper-slide bg-white p-4 rounded-xl ">
-                <img class="w-full" src=<%= cover.img %> alt="cover">
+                <img class="w-full" src=<%=cover.image %> alt="cover">
                 <div>
                   <p class="bg-[#F2E5FF] rounded-md mt-3 md:mt-6 py-1 px-2 w-fit text-purple text-xs md:text-sm font-medium"><%=cover.tag %></p> 
-                  <h2 class="mt-2 md:mt-4 text-lg font-bold lg:text-2xl"><%=cover.heading %></h2>
+                  <h2 class="mt-2 md:mt-4 text-lg font-bold lg:text-2xl"><%=cover.title %></h2>
                   <div class="flex items-center gap-3 lg:gap-5 mt-3">
-                    <img src=<%=cover.authorDp %> alt="">
-                    <p class="text-xs md:text-base"><%=cover.authorName %></p>
-                    <p class="text-xs md:text-base"><%=cover.date %></p>
+                    <img src="/images/blogCoverImgs/author.png" alt="author">
+                    <p class="text-xs md:text-base">TemiTope Odetude</p>
+                    <p class="text-xs lg:text-base"><%=cover.formattedDate%></p>
                   </div>
                 </div>
               </div>
@@ -227,7 +227,10 @@
         </div>
       </section>
       <section class="bg-[#FFF3E1] px-5 md:px-14 lg:px-24 py-12 lg:py-28 font-satoshi grid grid-cols-1 lg:grid-cols-5 gap-5 mb-14 lg:mb-28">
-        <div class="bg-[#000] lg:col-start-1 lg:col-end-3 bg-bio bg-50 md:bg-25 lg:bg-100 bg-bottome rounded-xl bg-no-repeat text-[#E8E8EA] py-10 lg:pt-[76px] px-10 flex flex-col gap-8 lg:gap-12">
+        <div class="bg-[#FAAF40] bg-bio bg-tope bg-100 bg-no-repeat lg:col-start-1 lg:col-end-4 flex justify-center  max-h-[500px] rounded-xl" >
+          <img src="/images/curly.png" alt="" class="max-h-[500px]" >
+        </div>
+        <div class="bg-[#000] lg:col-start-4 lg:col-end-6 bg-bio bg-50 md:bg-25 lg:bg-100 bg-bottome rounded-xl bg-no-repeat text-[#E8E8EA] py-10 lg:pt-[76px] px-10 flex flex-col gap-8 lg:gap-12">
           <h2 class="text-2xl lg:text-[32px] font-bold">
             Contact me via
           </h2>
@@ -237,9 +240,6 @@
           <p class="flex items-center gap-4">
             <img src="/images/Phone.svg" alt="Phone"> +234 (81) 47511 481
           </p>
-        </div>
-        <div class="bg-[#FAAF40] bg-bio bg-tope bg-100 bg-no-repeat lg:col-start-3 flex justify-center lg:col-end-6 max-h-[500px] rounded-xl" >
-          <img src="/images/curly.png" alt="" class="max-h-[500px]" >
         </div>
       </section>
       <%- include("./layout/footer.ejs")%>

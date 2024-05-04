@@ -570,6 +570,18 @@ video {
   bottom: 0px;
 }
 
+.bottom-\[-30px\] {
+  bottom: -30px;
+}
+
+.bottom-\[-70px\] {
+  bottom: -70px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -721,6 +733,10 @@ video {
   gap: 2.5rem;
 }
 
+.gap-12 {
+  gap: 3rem;
+}
+
 .gap-2 {
   gap: 0.5rem;
 }
@@ -827,9 +843,19 @@ video {
   background-color: rgb(228 231 236 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#E5E6E7\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 230 231 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#F2E5FF\] {
   --tw-bg-opacity: 1;
   background-color: rgb(242 229 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#F6EDFF\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(246 237 255 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#F9F4FF\] {
@@ -845,6 +871,11 @@ video {
 .bg-\[\#FFF3E1\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 243 225 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#FFF6E9\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 246 233 / var(--tw-bg-opacity));
 }
 
 .bg-black-200 {
@@ -977,11 +1008,6 @@ video {
   padding-bottom: 61px;
 }
 
-.py-36 {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -996,6 +1022,10 @@ video {
 
 .pb-14 {
   padding-bottom: 3.5rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
 }
 
 .pb-24 {
@@ -1273,8 +1303,20 @@ svg.thin{
     bottom: 7rem;
   }
 
+  .md\:bottom-\[-30px\] {
+    bottom: -30px;
+  }
+
   .md\:left-12 {
     left: 3rem;
+  }
+
+  .md\:right-0 {
+    right: 0px;
+  }
+
+  .md\:right-24 {
+    right: 6rem;
   }
 
   .md\:col-start-1 {
@@ -1325,10 +1367,6 @@ svg.thin{
     margin-top: 1.5rem;
   }
 
-  .md\:flex {
-    display: flex;
-  }
-
   .md\:grid {
     display: grid;
   }
@@ -1339,6 +1377,14 @@ svg.thin{
 
   .md\:w-36 {
     width: 9rem;
+  }
+
+  .md\:w-\[50vw\] {
+    width: 50vw;
+  }
+
+  .md\:w-\[60\%\] {
+    width: 60%;
   }
 
   .md\:w-\[75\%\] {
@@ -1361,6 +1407,10 @@ svg.thin{
     gap: 2.75rem;
   }
 
+  .md\:gap-12 {
+    gap: 3rem;
+  }
+
   .md\:gap-16 {
     gap: 4rem;
   }
@@ -1371,10 +1421,6 @@ svg.thin{
 
   .md\:gap-6 {
     gap: 1.5rem;
-  }
-
-  .md\:gap-0 {
-    gap: 0px;
   }
 
   .md\:gap-x-14 {
@@ -1408,11 +1454,6 @@ svg.thin{
     padding-right: 3.5rem;
   }
 
-  .md\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-
   .md\:px-24 {
     padding-left: 6rem;
     padding-right: 6rem;
@@ -1426,6 +1467,11 @@ svg.thin{
   .md\:py-14 {
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
+  }
+
+  .md\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .md\:py-24 {
@@ -1443,17 +1489,16 @@ svg.thin{
     padding-bottom: 1rem;
   }
 
-  .md\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-
   .md\:pb-11 {
     padding-bottom: 2.75rem;
   }
 
   .md\:pb-14 {
     padding-bottom: 3.5rem;
+  }
+
+  .md\:pb-20 {
+    padding-bottom: 5rem;
   }
 
   .md\:pb-36 {
@@ -1500,6 +1545,10 @@ svg.thin{
     font-size: clamp(20px,2.222vw,32px);
   }
 
+  .md\:text-\[clamp\(30px\2c 2\.77vw\2c 40px\)\] {
+    font-size: clamp(30px,2.77vw,40px);
+  }
+
   .md\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -1526,6 +1575,14 @@ svg.thin{
 }
 
 @media (min-width: 1024px) {
+  .lg\:bottom-\[-30px\] {
+    bottom: -30px;
+  }
+
+  .lg\:right-4 {
+    right: 1rem;
+  }
+
   .lg\:col-span-2 {
     grid-column: span 2 / span 2;
   }
@@ -1538,12 +1595,16 @@ svg.thin{
     grid-column-start: 1;
   }
 
-  .lg\:col-start-3 {
-    grid-column-start: 3;
+  .lg\:col-start-4 {
+    grid-column-start: 4;
   }
 
   .lg\:col-end-3 {
     grid-column-end: 3;
+  }
+
+  .lg\:col-end-4 {
+    grid-column-end: 4;
   }
 
   .lg\:col-end-6 {
@@ -1590,6 +1651,26 @@ svg.thin{
     width: 50%;
   }
 
+  .lg\:w-\[32\.5vw\] {
+    width: 32.5vw;
+  }
+
+  .lg\:w-\[34vw\] {
+    width: 34vw;
+  }
+
+  .lg\:w-\[35\.96vw\] {
+    width: 35.96vw;
+  }
+
+  .lg\:w-\[35\.97vw\] {
+    width: 35.97vw;
+  }
+
+  .lg\:w-\[36\.5vw\] {
+    width: 36.5vw;
+  }
+
   .lg\:w-\[49\%\] {
     width: 49%;
   }
@@ -1606,8 +1687,16 @@ svg.thin{
     width: 58vw;
   }
 
+  .lg\:w-\[70\%\] {
+    width: 70%;
+  }
+
   .lg\:w-\[75\%\] {
     width: 75%;
+  }
+
+  .lg\:w-\[78\.8888vw\] {
+    width: 78.8888vw;
   }
 
   .lg\:w-max {
@@ -1637,6 +1726,10 @@ svg.thin{
 
   .lg\:items-center {
     align-items: center;
+  }
+
+  .lg\:justify-center {
+    justify-content: center;
   }
 
   .lg\:justify-between {
@@ -1671,6 +1764,14 @@ svg.thin{
     gap: clamp(100px,12.15vw,175px);
   }
 
+  .lg\:gap-\[clamp\(50px\2c 4\.583vw\2c 66px\)\] {
+    gap: clamp(50px,4.583vw,66px);
+  }
+
+  .lg\:gap-\[clamp\(85px\2c 6\.52vw\2c 94px\)\] {
+    gap: clamp(85px,6.52vw,94px);
+  }
+
   .lg\:gap-x-\[clamp\(150px\2c 17vw\2c 261px\)\] {
     -moz-column-gap: clamp(150px,17vw,261px);
          column-gap: clamp(150px,17vw,261px);
@@ -1685,6 +1786,10 @@ svg.thin{
     row-gap: 5rem;
   }
 
+  .lg\:gap-y-24 {
+    row-gap: 6rem;
+  }
+
   .lg\:gap-y-\[clamp\(80px\2c 7\.5vw\2c 108px\)\] {
     row-gap: clamp(80px,7.5vw,108px);
   }
@@ -1695,6 +1800,10 @@ svg.thin{
 
   .lg\:bg-100 {
     background-size: 100%;
+  }
+
+  .lg\:p-10 {
+    padding: 2.5rem;
   }
 
   .lg\:p-14 {
@@ -1766,6 +1875,11 @@ svg.thin{
     padding-bottom: 9rem;
   }
 
+  .lg\:py-\[138px\] {
+    padding-top: 138px;
+    padding-bottom: 138px;
+  }
+
   .lg\:py-\[77px\] {
     padding-top: 77px;
     padding-bottom: 77px;
@@ -1796,34 +1910,29 @@ svg.thin{
     padding-bottom: clamp(85px,15.62vh,174px);
   }
 
-  .lg\:py-3 {
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
+  .lg\:px-48 {
+    padding-left: 12rem;
+    padding-right: 12rem;
   }
 
-  .lg\:py-32 {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+  .lg\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
-  .lg\:py-\[13\] {
-    padding-top: 13;
-    padding-bottom: 13;
+  .lg\:px-40 {
+    padding-left: 10rem;
+    padding-right: 10rem;
   }
 
-  .lg\:py-\[138\] {
-    padding-top: 138;
-    padding-bottom: 138;
+  .lg\:px-44 {
+    padding-left: 11rem;
+    padding-right: 11rem;
   }
 
-  .lg\:py-\[138px\] {
-    padding-top: 138px;
-    padding-bottom: 138px;
-  }
-
-  .lg\:px-2 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+  .lg\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
 
   .lg\:pb-14 {
@@ -1838,12 +1947,20 @@ svg.thin{
     padding-bottom: 6rem;
   }
 
+  .lg\:pb-36 {
+    padding-bottom: 9rem;
+  }
+
   .lg\:pb-48 {
     padding-bottom: 12rem;
   }
 
   .lg\:pb-\[105px\] {
     padding-bottom: 105px;
+  }
+
+  .lg\:pb-\[138px\] {
+    padding-bottom: 138px;
   }
 
   .lg\:pl-\[150px\] {
@@ -1926,6 +2043,10 @@ svg.thin{
     font-size: clamp(18px,1.6vw,24px);
   }
 
+  .lg\:text-\[clamp\(24px\2c 2\.22vw\2c 32px\)\] {
+    font-size: clamp(24px,2.22vw,32px);
+  }
+
   .lg\:text-\[clamp\(25px\2c 2\.222vw\2c 32px\)\] {
     font-size: clamp(25px,2.222vw,32px);
   }
@@ -1970,6 +2091,10 @@ svg.thin{
 
   .lg\:leading-7 {
     line-height: 1.75rem;
+  }
+
+  .lg\:leading-8 {
+    line-height: 2rem;
   }
 
   .lg\:leading-9 {

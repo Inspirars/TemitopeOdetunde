@@ -1,0 +1,15 @@
+<%- include("./layout/header.ejs")%>
+
+<h1>
+    Write a new post here
+</h1>
+
+<form method="post" action="/create" class="editor" >
+    <textarea name="valid" id="editor" cols="30" rows="10">
+
+    </textarea>
+
+    <button>submit</button>
+</form>
+
+<%- include("./layout/footer.ejs")%>
