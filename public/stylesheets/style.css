@@ -1055,6 +1055,11 @@ video {
   padding-bottom: 61px;
 }
 
+.px-14 {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -2043,6 +2048,16 @@ svg.thin{
   .lg\:py-\[clamp\(85px\2c 15\.62vh\2c 174px\)\] {
     padding-top: clamp(85px,15.62vh,174px);
     padding-bottom: clamp(85px,15.62vh,174px);
+  }
+
+  .lg\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .lg\:px-\[clamp\(90px\2c 7\.63vw\2c 110px\)\] {
+    padding-left: clamp(90px,7.63vw,110px);
+    padding-right: clamp(90px,7.63vw,110px);
   }
 
   .lg\:pb-14 {
