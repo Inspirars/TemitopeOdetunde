@@ -86,18 +86,21 @@ exports.blog = [
 exports.merch = [
     {
         img : '/images/estyStore/yeshua.png',
-        item : 'Yeshua P Unisex Sweatshirts',
-        price : '$ 8.82',
+        item : 'Yeshua P Unisex Hooded Sweatshirts',
+        price : '£ 23.99 ',
+        link : "https://www.etsy.com/uk/listing/1545232581/yeshua-p-unisex-hooded-sweatshirt?click_key=82d0c4da68deafbd949cd6470d0d0329a680add7%3A1545232581&click_sum=890ca25d&ref=shop_home_active_21"
     },
     {
         img : '/images/estyStore/Ambassador.png',
-        item : 'Ambassador bags',
-        price : '$ 8.82',
+        item : 'Ambassador Tote Bags (AOP)',
+        price : '£ 14.39',
+        link : "https://www.etsy.com/uk/listing/1535501511/ambassador-tote-bag-aop?click_key=9660392d2e8826bf73edf446780aeeca1705ca55%3A1535501511&click_sum=230237b5&ref=shop_home_active_30"
     },
     {
         img : '/images/estyStore/joyful.png',
-        item : 'Joyful SweatShirts',
-        price : '$ 8.82',
+        item : 'Joyful Unisex Full Zip Hoodie',
+        price : '£ 24.99',
+        link : "https://www.etsy.com/uk/listing/1538712600/joyful-unisex-full-zip-hoodie?click_key=0caf4df80036fe5cd436a053adcbb007d5363551%3A1538712600&click_sum=51b94d70&ref=shop_home_feat_2"
     }
 ]
 
