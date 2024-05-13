@@ -29,7 +29,7 @@
     </div>
 </nav>
 
-<main class="flex justify-center px-5 pt-24 pb-11 lg:pt-44">
+<main class="flex justify-center px-5 pt-24 pb-11 lg:pt-44 font-satoshi">
     <section class="w-full md:w-[85%] lg:max-w-[55.55vw]">
     <div class="flex items-center gap-2 pb-10 md:pb-[52px]">
         <p>
@@ -59,11 +59,36 @@
             <%-story.content%>
            
         </div>
+    <%}else{%>
+        <h1>
+            Issh, Looks Like This Story isn&apos;t available....
+        </h1>
+        <h3>How did you get here though</h3>
     <%}%>
     </section>
 </main>
-<section class="px-14 lg:px-[clamp(90px,7.63vw,110px)] py-10 md:py-14 lg:py-24">
-
+<section class="px-8 md:px-14 lg:px-[clamp(90px,7.63vw,110px)] py-10 md:py-14 lg:py-20 font-satoshi">
+    <h1 class="lg:text-[clamp(18px,1.666vw,24px)] font-medium text-[#000] pb-5">
+        More Stories
+    </h1>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 ">
+        <% related.forEach(cover => {%>
+          <div class=" bg-white p-4 rounded-xl border border-[#E8E8EA] transition-transform hover:scale-90 duration-1000">
+            <a class="blogButton" href=<%=cover.url%>>
+              <img class="w-full" src=<%=cover.image%> alt="cover">
+            <div>
+              <p class="bg-[#F2E5FF] rounded-md mt-3 md:mt-6 py-1 px-2 w-fit text-purple text-xs md:text-sm font-medium"><%=cover.tag %></p> 
+              <h2 class="mt-2 md:mt-4 text-lg font-bold lg:text-[clamp(18px1.66vw,24px)]"><%=cover.title %></h2>
+              <div class="flex items-center gap-3 lg:gap-5 mt-3">
+                <img src="/images/blogCoverImgs/author.png" alt="author">
+                <p class="text-xs md:text-base">TemiTope Odetude</p>
+                <p class="text-xs lg:text-base"><%=cover.formattedDate%></p>
+              </div>
+            </div>
+            </a>
+          </div>
+        <%})%>
+      </div>
 </section>
 
 <%- include("./layout/footer.ejs")%>

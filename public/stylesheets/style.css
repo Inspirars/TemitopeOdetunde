@@ -723,6 +723,12 @@ video {
   flex-grow: 1;
 }
 
+.scale-90 {
+  --tw-scale-x: .9;
+  --tw-scale-y: .9;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 @keyframes wiggle {
   0%, 100% {
     transform: rotate(0deg);
@@ -1084,6 +1090,11 @@ video {
   padding-bottom: 61px;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1134,6 +1145,10 @@ video {
 
 .pt-9 {
   padding-top: 2.25rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
 .text-center {
@@ -1194,6 +1209,10 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-\[clamp\(18px\2c 1\.666vw\2c 24px\)\] {
+  font-size: clamp(18px,1.666vw,24px);
 }
 
 .font-bold {
@@ -1308,6 +1327,14 @@ video {
 
 .duration-700 {
   transition-duration: 700ms;
+}
+
+.duration-500 {
+  transition-duration: 500ms;
+}
+
+.duration-1000 {
+  transition-duration: 1000ms;
 }
 
 /* @import url('https://fonts.cdnfonts.com/css/satoshi'); */
@@ -1725,6 +1752,14 @@ svg.thin{
 
   .lg\:top-\[150px\] {
     top: 150px;
+  }
+
+  .lg\:right-24 {
+    right: 6rem;
+  }
+
+  .lg\:right-32 {
+    right: 8rem;
   }
 
   .lg\:col-span-2 {
