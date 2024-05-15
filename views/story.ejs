@@ -74,10 +74,10 @@
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 ">
         <% related.forEach(cover => {%>
           <div class=" bg-white p-4 rounded-xl border border-[#E8E8EA] transition-transform hover:scale-90 duration-1000">
-            <a class="blogButton" href=<%=cover.url%>>
+            <a class="blogButton" href=<%=cover.urlrelated%>>
               <img class="w-full" src=<%=cover.image%> alt="cover">
             <div>
-              <p class="bg-[#F2E5FF] rounded-md mt-3 md:mt-6 py-1 px-2 w-fit text-purple text-xs md:text-sm font-medium"><%=cover.tag %></p> 
+              <p class="bg-[#F2E5FF] rounded-md mt-3 md:mt-6 py-1 px-2 w-fit text-purple text-xs md:text-sm font-medium"><%=cover.tag%></p> 
               <h2 class="mt-2 md:mt-4 text-lg font-bold lg:text-[clamp(18px1.66vw,24px)]"><%=cover.title %></h2>
               <div class="flex items-center gap-3 lg:gap-5 mt-3">
                 <img src="/images/blogCoverImgs/author.png" alt="author">

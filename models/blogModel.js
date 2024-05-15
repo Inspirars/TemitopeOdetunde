@@ -32,6 +32,11 @@ const postSchema = new Schema({
 postSchema.virtual('url').get(function(){
     return `story/${this._id}`
 })
+
+postSchema.virtual('urlrelated').get(function(){
+    return `${this._id}`
+})
+
 postSchema.virtual("formattedDate").get(function(){
     return DateTime.fromJSDate(this.date).toLocaleString(DateTime.DATE_MED)
 })
