@@ -1,0 +1,55 @@
+<%- include("./layout/header.ejs")%>
+
+<section class="flex justify-between items-center py-1 px-4 md:px-10 md:pt-8 lg:px-20 bg-grey-100 fixed z-40 w-full " id="nav">
+    <nav class="lg:flex lg:justify-between lg:items-center lg:font-inter lg:w-full"  >
+      <div class=" lg:flex items-center gap-[72px]" >
+          <a href="/"><img src="/images/logo.svg" alt="Temitope svg"></a>
+          <div id="mobby" class=" hidden lg:block ">
+            <ul class="hidden lg:flex list-none lg:gap-11 text-base text-black-200 font-normal mobUl" >
+              <div class="flex justify-end">
+                <img src="/images/close.png" alt="" class="closeIcon lg:hidden">
+              </div>
+              <a href="/about">
+                <li>About</li>
+              </a>
+              <a href="/books">
+                <li>Book</li>
+              </a>
+              <a href="https://www.etsy.com/uk/shop/RIOSINFLUENCIA?ref=hpsh" target="_blank">
+                <li>Shop</li>
+              </a>
+              <a href="/aim">
+                <li>AIM</li>
+              </a>
+              <a href="/blog">
+                <li>Blog</li>
+              </a>
+              <a href="/gallery">
+                <li>Gallery</li>
+              </a>
+              <button class=" lg:hidden text-lg px-4 py-3 md:px-5 md:py-4 rounded font-semibold bg-purple text-white border border-purple hover:bg-grey-100 hover:text-purple transition-all duration-700">
+                Join Community
+            </button>
+            </ul>
+          </div>
+      </div>
+      <div class="hidden lg:flex" >
+          <button class="text-lg md:px-5 md:py-4  rounded font-semibold bg-purple text-white border border-purple hover:bg-grey-100 hover:text-purple transition-all duration-700">
+              Join Community
+          </button>
+      </div>
+    </nav>
+    <img src="/images/hamburger.png" alt="" class="lg:hidden" id="ham">
+  </section>
+
+  <section class=" px-5 md:px-14  pt-24 pb-11 lg:pt-44 lg:px-[102px] py-12 lg:py-20 font-satoshi">
+        <div class="flex flex-col gap-4 text-white items-center">
+        <h3 class="text-2xl md:text-3xl text-[#000] lg:text-[clamp(45px,4vw,64px)] text-center font-bold lg:leading-10">My Gallery</h3>
+        <p class="text-[#4B587C] text-base md:text-lg lg:text-[clamp(18px,1.666vw,24px)] w-[90%] md:w-[80%] lg:w-[60%] text-center lg:leading-10">
+            Bytes and sounds from events and places I have been to
+        </p>
+        </div>
+  </section>
+
+
+<%- include("./layout/footer.ejs")%>

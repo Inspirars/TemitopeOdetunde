@@ -7,9 +7,9 @@ exports.market = [
 
 exports.comments = [
     {
-        comment : "“I've been reading an ebook she released   for over a year now, and I can testify that she's such an amazing author",
-        name : "Victor",
-        location : "Lagos, Nigeria"
+        comment : "“Thank you for taking part in our annual Aspirations Day. We feel it is so beneficial for our children to understand that what they are doing now will help them when they are looking for a job in the future.",
+        name : "Ben Kennor",
+        location : "Bexley Rd Erith DA8 3HQ, UK"
     },
     {
         comment : "“I've been reading an ebook she released   for over a year now, and I can testify that she's such an amazing author",
@@ -56,32 +56,6 @@ exports.bookCover = [
     },
 ]
 
-exports.blog = [
-    {
-        img : "/images/blogCoverImgs/blog1.png",
-        tag : "HEALTH",
-        heading : "Borem ipsum dolor sit amet, consectetur adipiscing elit.",
-        authorDp : '/images/blogCoverImgs/author.png',
-        authorName : 'Tracey Wilson',
-        date : 'April 21, 2024',
-    },
-    {
-        img : "/images/blogCoverImgs/blog1.png",
-        tag : "HEALTH",
-        heading : "Borem ipsum dolor sit amet, consectetur adipiscing elit.",
-        authorDp : '/images/blogCoverImgs/author.png',
-        authorName : 'Tracey Wilson',
-        date : 'April 21, 2024',
-    },
-    {
-        img : "/images/blogCoverImgs/blog1.png",
-        tag : "HEALTH",
-        heading : "Borem ipsum dolor sit amet, consectetur adipiscing elit.",
-        authorDp : '/images/blogCoverImgs/author.png',
-        authorName : 'Tracey Wilson',
-        date : 'April 21, 2024',
-    }
-]
 
 exports.merch = [
     {

@@ -26,35 +26,48 @@
         </g>
       </svg>    
     </div>
-    <main id="myDiv" class="bg-white hidden overflow-x-hidden">
-      <nav class="flex bg-grey-100 justify-between items-center py-1 px-4 md:px-10 md:pt-8 lg:px-20 font-inter z-40  fixed w-full overflow-hidden " id="nav">
-        <div class="lg:flex items-center gap-[72px]">
-            <a href="/"><img src="/images/logo.svg" alt="Temitope svg"></a>
-            <ul class=" hidden lg:flex list-none lg:gap-11 text-base text-black-200 font-normal">
-              <a href="/about">
-                <li>About</li>
-              </a>
-              <a href="/books">
-                <li>Book</li>
-              </a>
-              <a href="https://www.etsy.com/uk/shop/RIOSINFLUENCIA?ref=hpsh" target="_blank">
-                <li>Shop</li>
-              </a>
-              <a href="/aim">
-                <li>AIM</li>
-              </a>
-              <a href="/blog">
-                <li>BLOG</li>
-              </a>
-            </ul>
-        </div>
-        <img src="/images/hamburger.png" alt="" class="lg:hidden">
-        <div class="hidden lg:flex" >
-            <button class="text-lg md:px-5 md:py-4 rounded font-semibold bg-purple text-white border border-purple hover:bg-grey-100 hover:text-purple transition-all duration-700">
-                Join Community
-            </button>
-        </div>
-      </nav>
+    <main id="myDiv" class="bg-white hidden overflow-x-hidden relative">
+      <section class="flex justify-between items-center py-1 px-4 md:px-10 md:pt-8 lg:px-20 bg-grey-100 fixed z-40 w-full " id="nav">
+        <nav class="lg:flex lg:justify-between lg:items-center lg:font-inter lg:w-full"  >
+          <div class=" lg:flex items-center gap-[72px]" >
+              <a href="/"><img src="/images/logo.svg" alt="Temitope svg"></a>
+              <div id="mobby" class=" hidden lg:block ">
+                <ul class="hidden lg:flex list-none lg:gap-11 text-base text-black-200 font-normal mobUl" >
+                  <div class="flex justify-end">
+                    <img src="/images/close.png" alt="" class="closeIcon lg:hidden">
+                  </div>
+                  <a href="/about">
+                    <li>About</li>
+                  </a>
+                  <a href="/books">
+                    <li>Book</li>
+                  </a>
+                  <a href="https://www.etsy.com/uk/shop/RIOSINFLUENCIA?ref=hpsh" target="_blank">
+                    <li>Shop</li>
+                  </a>
+                  <a href="/aim">
+                    <li>AIM</li>
+                  </a>
+                  <a href="/blog">
+                    <li>Blog</li>
+                  </a>
+                  <a href="/gallery">
+                    <li>Gallery</li>
+                  </a>
+                  <button class=" lg:hidden text-lg px-4 py-3 md:px-5 md:py-4 rounded font-semibold bg-purple text-white border border-purple hover:bg-grey-100 hover:text-purple transition-all duration-700">
+                    Join Community
+                </button>
+                </ul>
+              </div>
+          </div>
+          <div class="hidden lg:flex" >
+              <button class="text-lg md:px-5 md:py-4  rounded font-semibold bg-purple text-white border border-purple hover:bg-grey-100 hover:text-purple transition-all duration-700">
+                  Join Community
+              </button>
+          </div>
+        </nav>
+        <img src="/images/hamburger.png" alt="" class="lg:hidden" id="ham">
+      </section>
       <section class=" bg-grey-100 px-5 pt-24 pb-11 lg:pt-44 lg:py-[clamp(85px,15.62vh,174px)] lg:pl-[clamp(85px,8.125vw,117px)] font-satoshi flex relative">
         <div>
           <h1 class="text-3xl md:text-5xl lg:text-[clamp(85px,8vw,120px)] leading-none font-extrabold">
