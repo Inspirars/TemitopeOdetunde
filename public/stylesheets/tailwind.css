@@ -83,16 +83,16 @@ svg.thin{
 
 
 @keyframes mymove {
-    from {left: -100px;}
-    to {left: 50px;}
+    from {right: -100px;}
+    to {right: 50px;}
   }
 
 @keyframes mymoveopposite {
 	from{
-		left: 0;
+		right: -100px;
 	}
 	to {
-		left: -100px;
+		left: 30px;
 	}
 }
 

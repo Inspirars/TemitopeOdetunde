@@ -658,6 +658,22 @@ video {
   display: none;
 }
 
+.h-\[30vw\] {
+  height: 30vw;
+}
+
+.h-\[31vw\] {
+  height: 31vw;
+}
+
+.h-\[35vw\] {
+  height: 35vw;
+}
+
+.h-\[480px\] {
+  height: 480px;
+}
+
 .h-screen {
   height: 100vh;
 }
@@ -676,6 +692,14 @@ video {
 
 .w-8 {
   width: 2rem;
+}
+
+.w-\[40vw\] {
+  width: 40vw;
+}
+
+.w-\[45vw\] {
+  width: 45vw;
 }
 
 .w-\[90\%\] {
@@ -739,6 +763,10 @@ video {
 
 .items-start {
   align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
 }
 
 .items-center {
@@ -965,6 +993,11 @@ video {
      object-fit: contain;
 }
 
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -1046,6 +1079,11 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .py-\[61px\] {
   padding-top: 61px;
   padding-bottom: 61px;
@@ -1105,6 +1143,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.font-inter {
+  font-family: Inter, sans-serif;
 }
 
 .font-satoshi {
@@ -1359,21 +1401,21 @@ svg.thin{
 
 @keyframes mymove {
   from {
-    left: -100px;
+    right: -100px;
   }
 
   to {
-    left: 50px;
+    right: 50px;
   }
 }
 
 @keyframes mymoveopposite {
   from{
-    left: 0;
+    right: -100px;
   }
 
   to {
-    left: -100px;
+    left: 30px;
   }
 }
 
@@ -1657,6 +1699,14 @@ svg.thin{
     padding-top: 2rem;
   }
 
+  .md\:pb-32 {
+    padding-bottom: 8rem;
+  }
+
+  .md\:pb-3 {
+    padding-bottom: 0.75rem;
+  }
+
   .md\:text-left {
     text-align: left;
   }
@@ -1803,12 +1853,24 @@ svg.thin{
     display: none;
   }
 
+  .lg\:h-\[17\.667vw\] {
+    height: 17.667vw;
+  }
+
+  .lg\:h-\[520px\] {
+    height: 520px;
+  }
+
   .lg\:w-1\/2 {
     width: 50%;
   }
 
   .lg\:w-\[163px\] {
     width: 163px;
+  }
+
+  .lg\:w-\[25vw\] {
+    width: 25vw;
   }
 
   .lg\:w-\[32\.5vw\] {
@@ -1920,6 +1982,10 @@ svg.thin{
     justify-content: space-between;
   }
 
+  .lg\:gap-10 {
+    gap: 2.5rem;
+  }
+
   .lg\:gap-11 {
     gap: 2.75rem;
   }
@@ -2019,6 +2085,11 @@ svg.thin{
     padding-right: 102px;
   }
 
+  .lg\:px-\[120px\] {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
   .lg\:px-\[86px\] {
     padding-left: 86px;
     padding-right: 86px;
@@ -2062,6 +2133,11 @@ svg.thin{
   .lg\:py-36 {
     padding-top: 9rem;
     padding-bottom: 9rem;
+  }
+
+  .lg\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .lg\:py-\[138px\] {
@@ -2119,6 +2195,10 @@ svg.thin{
     padding-bottom: 12rem;
   }
 
+  .lg\:pb-6 {
+    padding-bottom: 1.5rem;
+  }
+
   .lg\:pb-\[105px\] {
     padding-bottom: 105px;
   }
@@ -2157,6 +2237,10 @@ svg.thin{
 
   .lg\:pt-\[76px\] {
     padding-top: 76px;
+  }
+
+  .lg\:pb-32 {
+    padding-bottom: 8rem;
   }
 
   .lg\:text-left {
@@ -2226,6 +2310,10 @@ svg.thin{
     font-size: clamp(25px,2.222vw,32px);
   }
 
+  .lg\:text-\[clamp\(30px\2c 2\.77vw\2c 40px\)\] {
+    font-size: clamp(30px,2.77vw,40px);
+  }
+
   .lg\:text-\[clamp\(35px\2c 2\.77vw\2c 40px\)\] {
     font-size: clamp(35px,2.77vw,40px);
   }
@@ -2278,6 +2366,10 @@ svg.thin{
 
   .lg\:leading-9 {
     line-height: 2.25rem;
+  }
+
+  .lg\:leading-\[45px\] {
+    line-height: 45px;
   }
 
   .lg\:leading-\[56px\] {

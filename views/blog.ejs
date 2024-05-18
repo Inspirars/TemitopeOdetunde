@@ -1,5 +1,5 @@
 <%- include("./layout/header.ejs")%>
-<section class="flex justify-between items-center py-1 px-4 md:px-10 md:pt-8 lg:px-20 bg-grey-100 fixed z-40 w-full " id="nav">
+<section class="flex justify-between items-center py-3 px-4 md:px-10 md:pt-8 lg:px-20 bg-grey-100 fixed z-40 w-full " id="nav">
   <nav class="lg:flex lg:justify-between lg:items-center lg:font-inter lg:w-full"  >
     <div class=" lg:flex items-center gap-[72px]" >
         <a href="/"><img src="/images/logo.svg" alt="Temitope svg"></a>
@@ -48,7 +48,7 @@
       </p>
     </div>
     <section class="flex items-center  px-5 md:px-14 lg:px-20 mt-10">
-      <img src="/images/DocVideo.png" alt=" doc video" class="cursor-pointer">
+      <iframe class="w-full h-[480px] lg:h-[520px]" src="https://www.youtube.com/embed/padwHiGXr3Y" title="Interview with Yemi Jackson on AIM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </section>
     <div class="grid md:grid-cols-2 lg:grid-cols-3 mt-10 lg:mt-28 gap-6 ">
         <% blog.forEach(cover => {%>
