@@ -32,6 +32,8 @@ tinymce.init({
   mobMenu?.addEventListener('click', (e)=>{
     e.stopPropagation()
     mobMenu.classList.toggle('open')
+    document.body.classList.remove('bodyStiff')
+    
   })
 
   mobUl?.addEventListener('click', (e)=>{
@@ -42,6 +44,7 @@ tinymce.init({
     mobMenu.style.animation = "mymoveopposite 1s 1"
     setTimeout(()=>{
       mobMenu.classList.toggle('open')
+      document.body.classList.remove('bodyStiff')
     },1000)
   })
   

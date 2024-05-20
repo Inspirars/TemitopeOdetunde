@@ -97,7 +97,7 @@ const getScroll = ()=>{
     nav.classList.add('sticky')
     return
   }else{
-    
+    nav.classList.remove('sticky')
   }
   // nav.style.cssText = "background-color: #fff;"
     nav.classList.remove('sticky')
