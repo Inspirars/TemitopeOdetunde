@@ -1391,7 +1391,6 @@ svg.thin{
   width: 100%;
   bottom: 0;
   right: 0;
-  /* position: relative; */
 }
 
 #mobby.open{
@@ -1697,14 +1696,6 @@ svg.thin{
 
   .md\:pt-8 {
     padding-top: 2rem;
-  }
-
-  .md\:pb-32 {
-    padding-bottom: 8rem;
-  }
-
-  .md\:pb-3 {
-    padding-bottom: 0.75rem;
   }
 
   .md\:text-left {
@@ -2187,6 +2178,10 @@ svg.thin{
     padding-bottom: 6rem;
   }
 
+  .lg\:pb-32 {
+    padding-bottom: 8rem;
+  }
+
   .lg\:pb-36 {
     padding-bottom: 9rem;
   }
@@ -2237,10 +2232,6 @@ svg.thin{
 
   .lg\:pt-\[76px\] {
     padding-top: 76px;
-  }
-
-  .lg\:pb-32 {
-    padding-bottom: 8rem;
   }
 
   .lg\:text-left {
