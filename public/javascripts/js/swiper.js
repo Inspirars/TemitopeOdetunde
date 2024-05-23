@@ -116,12 +116,16 @@ anime({
   loop: true
 })
 
-
+const loader = document.getElementById("loader")
+const myDiv = document.getElementById("myDiv")
 
 const dee = ()=>{
   setTimeout(function showPage() {
-    document.getElementById("loader")?.style.display = "none";
-    document.getElementById("myDiv")?.style.display = "block";
+    if(loader && myDiv){
+      loader.style.display = "none";
+      myDiv.style.display = "block";
+    }
+    
   },3500)
 }
 
