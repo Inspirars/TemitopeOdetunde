@@ -120,8 +120,8 @@ anime({
 
 const dee = ()=>{
   setTimeout(function showPage() {
-    document.getElementById("loader").style.display = "none";
-    document.getElementById("myDiv").style.display = "block";
+    document.getElementById("loader")?.style.display = "none";
+    document.getElementById("myDiv")?.style.display = "block";
   },3500)
 }
 
