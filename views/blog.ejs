@@ -53,7 +53,7 @@
     <section class="flex items-center  px-5 md:px-14 lg:px-20 mt-10">
       <iframe class="w-full h-[480px] lg:h-[520px]" src="https://www.youtube.com/embed/padwHiGXr3Y" title="Interview with Yemi Jackson on AIM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </section>
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 mt-10 lg:mt-28 gap-6 ">
+    <div class="grid  lg:grid-cols-3 mt-10 lg:mt-28 gap-6 ">
         <% blog.forEach(cover => {%>
           <div class=" bg-white p-4 rounded-xl border border-[#E8E8EA]">
             <a class="blogButton" href=<%=cover.url%>>
@@ -67,7 +67,7 @@
                 <p class="text-xs lg:text-base"><%=cover.formattedDate%></p>
               </div>
             </div>
-            </>
+          </a>
           </div>
         <%})%>
       </div>
