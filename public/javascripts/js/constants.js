@@ -9,27 +9,22 @@ exports.comments = [
     {
         comment : "“Thank you for taking part in our annual Aspirations Day. We feel it is so beneficial for our children to understand that what they are doing now will help them when they are looking for a job in the future.",
         name : "Ben Kennor",
-        location : "Bexley Rd Erith DA8 3HQ, UK"
     },
     {
-        comment : "“I've been reading an ebook she released   for over a year now, and I can testify that she's such an amazing author",
-        name : "Godwin",
-        location : "Abuja, Nigeria"
+        comment : "“Whoa sis! Your book is full of life! Really deep. I was blessed by the indepth research, teaching and revelation. God bless you. Finished it before I got home. Greater is coming…well done!!",
+        name : "Belema",
     },
     {
-        comment : "“I've been reading an ebook she released   for over a year now, and I can testify that she's such an amazing author",
-        name : "Victor",
-        location : "Lagos, Nigeria"
+        comment : "“Can’t wait oo, I know it’s loaded coz I keep rereading your last book Worship Brings Rain",
+        name : "Fatima Kumba ",
     },
     {
-        comment : "“I've been reading an ebook she released   for over a year now, and I can testify that she's such an amazing author",
-        name : "Sodiq",
-        location : "Jos, Nigeria"
+        comment : "“This  book made me reflect on my own worship and whether it matches that of heavenly worship. I did not want it to end. I’m so proud of you. Can’t wait to read the second book",
+        name : "Sharon Maquis",
     },
     {
-        comment : "“I've been reading an ebook she released   for over a year now, and I can testify that she's such an amazing author",
-        name : "Victor",
-        location : "Lagos, Nigeria"
+        comment : "“I find the book to be concise yet very insightful. The analogy with the rain and linking it with worship was an eye opener. I have already recommended the book to my family and loved ones. Well done sis Tope",
+        name : "Martina",
     },
 ]
 
