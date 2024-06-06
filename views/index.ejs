@@ -154,9 +154,9 @@
           What people say <br> about Temitope
         </h1>
         <div class="swiper">
-          <div class="swiper-wrapper">
+          <div class="swiper-wrapper swipery ">
             <% comments.forEach(commentus => {%>
-              <div class="swiper-slide bg-white px-10 py-[61px] rounded-[30px] text-[#475367] cursor-pointer slidey " >
+              <div class="swiper-slide  bg-white px-10 py-[61px] rounded-[30px] text-[#475367] cursor-pointer slidey" >
                 <h3 class="mb-5 text-lg md:text-2xl font-normal"><%= commentus.comment%></h3>
                 <h2 class="font-bold text-lg md:text-2xl line-clamp-3 truncate" ><%= commentus.name %></h2>
               </div>

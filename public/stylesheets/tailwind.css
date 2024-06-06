@@ -15,6 +15,10 @@
     transform: scale(0.4);
 } */
 
+.swiper .swipery{
+    height: 350px;
+}
+
 .bodyStiff {
 	margin: 0; height: 100%; overflow: hidden
   }

@@ -646,20 +646,6 @@ video {
   margin-top: 1.5rem;
 }
 
-.line-clamp-1 {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1;
-}
-
-.line-clamp-6 {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 6;
-}
-
 .line-clamp-3 {
   overflow: hidden;
   display: -webkit-box;
@@ -690,10 +676,6 @@ video {
   display: none;
 }
 
-.h-28 {
-  height: 7rem;
-}
-
 .h-\[30vw\] {
   height: 30vw;
 }
@@ -710,40 +692,12 @@ video {
   height: 480px;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
-.h-\[170vw\] {
-  height: 170vw;
-}
-
 .h-\[70vw\] {
   height: 70vw;
 }
 
-.h-\[90vw\] {
-  height: 90vw;
-}
-
-.h-\[10vw\] {
-  height: 10vw;
-}
-
-.h-\[100vw\] {
-  height: 100vw;
-}
-
-.h-\[100\] {
-  height: 100;
-}
-
-.h-\[100\%\] {
-  height: 100%;
-}
-
-.h-\[50vw\] {
-  height: 50vw;
+.h-screen {
+  height: 100vh;
 }
 
 .max-h-\[500px\] {
@@ -785,34 +739,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-28 {
-  width: 7rem;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[300\] {
-  width: 300;
-}
-
-.w-\[300px\] {
-  width: 300px;
-}
-
-.w-\[70vw\] {
-  width: 70vw;
-}
-
-.w-\[170vw\] {
-  width: 170vw;
-}
-
-.w-\[50vw\] {
-  width: 50vw;
 }
 
 .max-w-\[clamp\(650px\2c 62vw\2c 897px\)\] {
@@ -929,20 +855,8 @@ video {
   row-gap: 1.75rem;
 }
 
-.overflow-hidden {
-  overflow: hidden;
-}
-
-.overflow-y-auto {
-  overflow-y: auto;
-}
-
 .overflow-x-hidden {
   overflow-x: hidden;
-}
-
-.overflow-y-hidden {
-  overflow-y: hidden;
 }
 
 .truncate {
@@ -953,10 +867,6 @@ video {
 
 .text-balance {
   text-wrap: balance;
-}
-
-.text-pretty {
-  text-wrap: pretty;
 }
 
 .rounded {
@@ -1114,16 +1024,6 @@ video {
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.object-fill {
-  -o-object-fit: fill;
-     object-fit: fill;
-}
-
-.object-center {
-  -o-object-position: center;
-     object-position: center;
 }
 
 .p-2 {
@@ -1300,10 +1200,6 @@ video {
   font-size: 10px;
 }
 
-.text-\[clamp\(14px\2c 4\.205vw\2c 18px\)\] {
-  font-size: clamp(14px,4.205vw,18px);
-}
-
 .text-\[clamp\(28px\2c 2\.5vw\2c 36px\)\] {
   font-size: clamp(28px,2.5vw,36px);
 }
@@ -1451,8 +1347,6 @@ video {
   transition-duration: 700ms;
 }
 
-/* @import url('https://fonts.cdnfonts.com/css/satoshi'); */
-
 /* :root {
     font-size: 10px;
 } */
@@ -1460,6 +1354,10 @@ video {
 /* .swiper-slide:hover{
     transform: scale(0.4);
 } */
+
+.swiper .swipery{
+  height: 350px;
+}
 
 .bodyStiff {
   margin: 0;
@@ -2002,11 +1900,6 @@ svg.thin{
 
   .lg\:h-\[520px\] {
     height: 520px;
-  }
-
-  .lg\:h-fit {
-    height: -moz-fit-content;
-    height: fit-content;
   }
 
   .lg\:w-1\/2 {
