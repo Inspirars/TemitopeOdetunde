@@ -1,6 +1,7 @@
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
+const cors = require('cors');
 var cookieParser = require('cookie-parser');
 const mongoose = require('mongoose');
 var logger = require('morgan');
@@ -14,9 +15,11 @@ var usersRouter = require('./routes/users');
 var blogRouter = require('./routes/blog')
 const storyRouter = require("./routes/story")
 const galleryRouter = require('./routes/gallery')
+const contactRouter = require('./routes/contactform')
 
 
 var app = express();
+app.use(cors())
 
 let mongoString = process.env.MONGOSTRING
 
@@ -46,8 +49,9 @@ app.use("/books", bookRouter)
 app.use("/about",aboutRouter)
 app.use("/aim", aimRouter)
 app.use("/blog", blogRouter)
-app.use("/",storyRouter)
-app.use("/",galleryRouter)
+app.use("/", storyRouter)
+app.use("/", galleryRouter)
+app.use("/", contactRouter)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
