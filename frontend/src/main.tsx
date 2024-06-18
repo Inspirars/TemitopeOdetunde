@@ -9,6 +9,8 @@ import Home from './pages/Home.js';
 import About from './pages/About.js';
 import Book from './pages/Book.js';
 import Taim from './pages/Taim.js';
+import Blog from './pages/Blog.js';
+import BlogContent from './pages/BlogContent.js';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +28,16 @@ const router = createBrowserRouter([
   {
     path : '/books',
     element : <Book/>,
+  },
+  {
+    path : '/blog',
+    element : <Blog/>,
+    children : [
+      {
+        path : '/blog/:id',
+        element : <BlogContent/>,
+      }
+    ]
   },
 
 ]);

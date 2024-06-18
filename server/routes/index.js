@@ -4,10 +4,9 @@ var constants = require("../public/javascripts/js/constants");
 const Post = require("../models/blogModel")
 
 /* GET home page. */
-router.get('/', async function(req, res, next) {
+router.get('/api/home', async function(req, res, next) {
   const blog = await Post.find({},"title tag date image").sort({date : 1}).limit(3)
-  const merch = constants.merch
-  res.render('index', { title: 'Welcome', constants : constants.market, comments : constants.comments, bookCovers: constants.bookCover, blog, merch });
+  res.send(blog);
 });
 
 module.exports = router;

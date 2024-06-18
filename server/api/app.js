@@ -7,15 +7,11 @@ const mongoose = require('mongoose');
 var logger = require('morgan');
 require('dotenv').config();
 
-var indexRouter = require('./routes/index');
-var bookRouter = require('./routes/books')
-var aimRouter = require('./routes/aim')
-const aboutRouter = require("./routes/about")
-var usersRouter = require('./routes/users');
-var blogRouter = require('./routes/blog')
-const storyRouter = require("./routes/story")
-const galleryRouter = require('./routes/gallery')
-const contactRouter = require('./routes/contactform')
+var indexRouter = require('../routes/index');
+var blogRouter = require('../routes/blog')
+const storyRouter = require("../routes/story")
+const galleryRouter = require('../routes/gallery')
+const contactRouter = require('../routes/contactform')
 
 
 var app = express();
@@ -32,23 +28,15 @@ async function main(){
   await mongoose.connect(mongoString)
 }
 
-// view engine setup
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'ejs');
 
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
-app.use('/tinymce', express.static(path.join(__dirname, 'node_modules', 'tinymce')));
+app.use(express.static(path.join(__dirname,'..','public')));
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
-app.use("/books", bookRouter)
-app.use("/about",aboutRouter)
-app.use("/aim", aimRouter)
-app.use("/blog", blogRouter)
+app.use("/", blogRouter)
 app.use("/", storyRouter)
 app.use("/", galleryRouter)
 app.use("/", contactRouter)

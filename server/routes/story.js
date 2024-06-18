@@ -2,10 +2,16 @@ const router = require("express").Router()
 const Post = require("../models/blogModel")
 const asyncHandler = require("express-async-handler")
 
-router.get("/story/:id",asyncHandler(async (req,res,next)=>{
+router.get("/api/story/:id",asyncHandler(async (req,res,next)=>{
     var story = await Post.findById(req.params.id).exec()
-    var related = await Post.find({},"title tag date image").sort({date : 1}).limit(3).exec()
-    res.render("story",{title : "Blog-Story", story, related})
+    const tag = story.tag
+    var related = await Post.find({tag: tag},"title tag date image").sort({date : 1}).limit(3).exec()
+    var relatedFilter = related.filter(content => content.title != story.title)
+    var relatedContent = relatedFilter && relatedFilter
+    res.send({
+        story,
+        relatedContent
+    })
 }) )
 
 module.exports = router
