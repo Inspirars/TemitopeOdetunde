@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom"
+import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
 
 const Gallery = () => {
   return (
     <div>
+        <Navbar/>
         <section className=" px-5 md:px-14 pt-24 pb-11 lg:pt-44 lg:px-[102px] py-12 lg:py-20 font-satoshi">
         <div className="flex flex-col gap-4 text-white items-center">
         <h3 className="text-2xl md:text-3xl text-[#000] lg:text-[clamp(45px,4vw,64px)] text-center font-bold lg:leading-10">My Gallery</h3>
@@ -76,6 +79,7 @@ const Gallery = () => {
     </main>
 
   </section>
+  <Footer/>
       
     </div>
   )
