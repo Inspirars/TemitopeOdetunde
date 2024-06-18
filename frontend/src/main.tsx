@@ -33,12 +33,12 @@ const router = createBrowserRouter([
     path : '/blog',
     element : <Blog/>,
     children : [
-      {
-        path : '/blog/:id',
-        element : <BlogContent/>,
-      }
     ]
   },
+  {
+    path : '/blog/:id',
+    element : <BlogContent/>,
+  }
 
 ]);
 
