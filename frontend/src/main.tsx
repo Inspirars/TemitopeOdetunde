@@ -12,6 +12,7 @@ import Taim from './pages/Taim.js';
 import Blog from './pages/Blog.js';
 import BlogContent from './pages/BlogContent.js';
 import Error from './components/Error.js';
+import Gallery from './pages/Gallery.js';
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,11 @@ const router = createBrowserRouter([
   {
     path : '/blog/:id',
     element : <BlogContent/>,
+    errorElement : <Error/>
+  },
+  {
+    path : '/gallery',
+    element : <Gallery/>,
     errorElement : <Error/>
   }
 
