@@ -59,7 +59,7 @@ const BlogContent = () => {
         content.relatedContent.length > 0 ? (<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 ">
         {content.relatedContent.map(cover => (
           <div className=" bg-white p-4 rounded-xl border border-[#E8E8EA] transition-transform hover:scale-90 duration-1000">
-            <a className="blogButton" href={`/blog/${cover['_id']}`}>
+            <Link className="blogButton" to={`/blog/${cover['_id']}`}>
               <img className="w-full" src={cover['image']} alt="cover"/>
             <div>
               <p className="bg-[#F2E5FF] rounded-md mt-3 md:mt-6 py-1 px-2 w-fit text-purple text-xs md:text-sm font-medium">{cover['tag']}</p> 
@@ -70,7 +70,7 @@ const BlogContent = () => {
                 <p className="text-xs lg:text-base">{DateTime.fromJSDate(new Date(cover['date'])).toLocaleString(DateTime.DATE_MED)}</p>
               </div>
             </div>
-          </a>
+          </Link>
           </div>)
         )}
       </div>) : (<h1>No Related Stories for Now</h1>)
