@@ -70,9 +70,9 @@ const Home: React.FC = () => {
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-16 mt-12 lg:mt-16 text-[#D0D5DD] text-lg md:text-2xl">
         <p><li>Career</li></p>
         <p><li>Author and Speaker</li></p>
-        <p><li>Coaching</li></p>
+        <p><li>Coaching and Mentoring</li></p>
         <p><li>Leader in Medicines Management Consultant</li></p>
-        <p><li>Innovator in Regulatory Compliance Specialist</li></p>
+        <p><li>Regulatory and Compliance Specialist</li></p>
         <p><li>Advocate for Care Home Policies and Procedures</li></p>
       </div>
 
