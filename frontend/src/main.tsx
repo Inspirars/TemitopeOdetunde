@@ -11,11 +11,13 @@ import Book from './pages/Book.js';
 import Taim from './pages/Taim.js';
 import Blog from './pages/Blog.js';
 import BlogContent from './pages/BlogContent.js';
+import Error from './components/Error.js';
 
 const router = createBrowserRouter([
   {
     path : '/',
     element : <Home/>,
+    errorElement : <Error/>
   },
   {
     path : '/about',
@@ -38,6 +40,7 @@ const router = createBrowserRouter([
   {
     path : '/blog/:id',
     element : <BlogContent/>,
+    errorElement : <Error/>
   }
 
 ]);

@@ -3,6 +3,7 @@
       {
         "source": "/(.*)",
         "destination": "/"
-      }
+      },
+      { "src": "/.*", "status": 404, "dest": "./src/components/Error.tsx" }
     ]
   }
