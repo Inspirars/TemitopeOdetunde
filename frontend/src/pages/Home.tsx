@@ -71,9 +71,13 @@ const Home: React.FC = () => {
         <p><li>Career</li></p>
         <p><li>Author and Speaker</li></p>
         <p><li>Coaching and Mentoring</li></p>
-        <p><li>Leader in Medicines Management Consultant</li></p>
+        <p><li>Medicines Management Consultant</li></p>
         <p><li>Regulatory and Compliance Specialist</li></p>
-        <p><li>Advocate for Care Home Policies and Procedures</li></p>
+        <p><li>Develop and Review Medicines Policies and Procedures</li></p>
+        <p>
+          <li>Review Educational Provider's Training Materials
+          </li>
+        </p>
       </div>
 
     </section>
