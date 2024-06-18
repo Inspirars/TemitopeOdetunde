@@ -9,7 +9,7 @@ const BlogContent = () => {
     const {id} = useParams()
     const navigate = useNavigate()
     useEffect(()=>{
-        axios.get(`http://localhost:8080/api/story/${id}`)
+        axios.get(`https://temitope-server.vercel.app/api/story/${id}`)
         .then((res)=>{
             console.log(res)
             setContent(res.data)

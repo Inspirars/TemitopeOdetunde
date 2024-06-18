@@ -11,7 +11,7 @@ const Blog = () => {
     const [blog, setBlog] = useState([])
     useEffect(()=>{
         setLoading(true)
-        axios.get('http://localhost:8080/api/blog')
+        axios.get('https://temitope-server.vercel.app/api/blog')
     .then((res)=> {
         console.log(res)
         setBlog(res.data)

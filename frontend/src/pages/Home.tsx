@@ -18,7 +18,7 @@ const Home: React.FC = () => {
   const [loading, setLoading] = useState(false);
   useEffect( ()=>{
     setLoading(true)
-    axios.get('http://localhost:8080/api/home')
+    axios.get('https://temitope-server.vercel.app/api/home')
     .then((res)=> {
       console.log(res.data)
       setBlog(res.data)
