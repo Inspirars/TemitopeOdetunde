@@ -35,7 +35,7 @@ function sendConfirmationMail(res,fullName, phoneNumber, email, service, need){
 
   transporter.sendMail(mainOptions, (error, info) => {
     if (error) {
-      return res.json({success : false, message : error });
+      return res.status(401).send({success : false, message : error });
     }
   });
 
@@ -53,10 +53,10 @@ function sendConfirmationMail(res,fullName, phoneNumber, email, service, need){
 
     transporter.sendMail(subOptions, (error, info) => {
       if (error) {
-        return res.json({success : false, message : error });
+        return res.status(401).send({success : false, message : error });
       } else {
         console.log(info)
-        return res.json({success : true, message : info})
+        return res.send({success : true, message : info})
       }
     });
 
