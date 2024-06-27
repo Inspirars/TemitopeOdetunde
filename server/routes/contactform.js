@@ -4,7 +4,6 @@ const { sendConfirmationMail } = require('../utils/mailer')
 
 router.post('/api/v1/contact', async (req,res,next)=>{
     const {fullName, phoneNumber, email, service, need} = req.body
-
     if(!fullName || !phoneNumber || !email || !service || !need){
         if(!fullName){
             res.status(401).send({success : false, message : "fullName field missing"})

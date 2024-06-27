@@ -9,7 +9,7 @@ require('dotenv').config()
 function sendConfirmationMail(res,fullName, phoneNumber, email, service, need){
   const transporter = nodemailer.createTransport(smtpTransport({
     host: 'smtp.livemail.co.uk',
-    secureConnection: false,
+    secureConnection: true,
     tls: {
       rejectUnauthorized: false
     },
@@ -35,7 +35,7 @@ function sendConfirmationMail(res,fullName, phoneNumber, email, service, need){
 
   transporter.sendMail(mainOptions, (error, info) => {
     if (error) {
-      return res.status(401).send({success : false, message : error });
+      return res.status(401).send({success : false, message : error, mailError : 'Error from first mail sending' });
     }
   });
 
@@ -56,7 +56,7 @@ function sendConfirmationMail(res,fullName, phoneNumber, email, service, need){
         return res.status(401).send({success : false, message : error });
       } else {
         console.log(info)
-        return res.send({success : true, message : info})
+        return res.send({success : true, message : info, mailError : 'Error from second mail sending' })
       }
     });
 

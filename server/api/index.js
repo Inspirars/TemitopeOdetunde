@@ -36,10 +36,10 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname,'..','public')));
 
 app.use('/', indexRouter);
-app.use("/", blogRouter)
-app.use("/", storyRouter)
-app.use("/", galleryRouter)
-app.use("/", contactRouter)
+app.use("/", blogRouter);
+app.use("/", storyRouter);
+app.use("/", galleryRouter);
+app.use("/", contactRouter);
 
 app.listen(3000, () => console.log("Server ready on port 3000."));
 
