@@ -35,7 +35,7 @@ function sendConfirmationMail(res,fullName, phoneNumber, email, service, need){
 
   transporter.sendMail(mainOptions, (error, info) => {
     if (error) {
-      return res.status(401).send({success : false, message : error, mailError : 'Error from first mail sending' });
+      return res.status(404).send({success : false, message : error, mailError : 'Error from first mail sending' });
     }
   });
 
@@ -53,10 +53,10 @@ function sendConfirmationMail(res,fullName, phoneNumber, email, service, need){
 
     transporter.sendMail(subOptions, (error, info) => {
       if (error) {
-        return res.status(401).send({success : false, message : error });
+        return res.status(401).send({success : false, message : error, mailError : 'Error from second mail sending'  });
       } else {
         console.log(info)
-        return res.send({success : true, message : info, mailError : 'Error from second mail sending' })
+        return res.send({success : true, message : info})
       }
     });
 
