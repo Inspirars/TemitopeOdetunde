@@ -9,7 +9,7 @@ require('dotenv').config()
 function sendConfirmationMail(res,fullName, phoneNumber, email, service, need){
   const transporter = nodemailer.createTransport(smtpTransport({
     host: 'smtp.livemail.co.uk',
-    secureConnection: false,
+    secureConnection: true,
     tls: {
       rejectUnauthorized: false
     },
