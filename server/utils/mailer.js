@@ -9,14 +9,14 @@ require('dotenv').config()
 function sendConfirmationMail(res,fullName, phoneNumber, email, service, need){
   const transporter = nodemailer.createTransport(smtpTransport({
     host: 'smtp.livemail.co.uk',
-    secureConnection: true,
+    secureConnection: false,
     tls: {
       rejectUnauthorized: false
     },
     port : 465,
     auth: {
         user: 'info@temitopeodetunde.com',
-        pass: 'BAMIdele1',
+        pass: process.env.PASS,
       },
   }))
 
@@ -28,13 +28,14 @@ function sendConfirmationMail(res,fullName, phoneNumber, email, service, need){
 
     const mainOptions = {
     from: '"Temitope Odetunde"info@temitopeodetunde.com',
-    to: 'deemajor230600@gmail.com',
+    to: email,
     subject: 'Hi there',
     html: renderedHtml,
   };
 
   transporter.sendMail(mainOptions, (error, info) => {
     if (error) {
+      console.log(error)
       return res.status(404).send({success : false, message : error, mailError : 'Error from first mail sending' });
     }
   });
