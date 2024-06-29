@@ -12,6 +12,7 @@ import 'swiper/css/autoplay'
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import LoadingScreen from "../components/LoadingScreen";
+import Enhance from "../components/Enhance"
 
 const Home: React.FC = () => {
   const [blog, setBlog] = useState([]);
@@ -304,6 +305,7 @@ const Home: React.FC = () => {
           )}
       </Swiper>
     </section>
+    <Enhance/>
     <section className="bg-[#FFF3E1] px-5 md:px-14 lg:px-24 py-12 lg:py-28 font-satoshi grid grid-cols-1 lg:grid-cols-5 gap-5 mb-14 lg:mb-28">
       <div className="bg-[#FAAF40] bg-bio bg-tope bg-100 bg-no-repeat lg:col-start-1 lg:col-end-4 flex justify-center  max-h-[500px] rounded-xl" >
         <img src="/images/contactDp.png" alt="" className="lg:w-[49.9vw] object-contain" />

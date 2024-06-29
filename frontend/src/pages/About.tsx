@@ -1,3 +1,4 @@
+import Enhance from "../components/Enhance"
 import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
 
@@ -95,6 +96,7 @@ const About = () => {
         </button>
       </section>
     </section>
+    <Enhance/>
     <Footer/>
       
     </div>

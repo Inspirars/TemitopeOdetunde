@@ -3,6 +3,7 @@ import { visions,values } from "../constants"
 import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
 import { Link } from "react-router-dom"
+import Enhance from "../components/Enhance"
 
 const Taim = () => {
   return (
@@ -72,7 +73,7 @@ const Taim = () => {
   )}
 </div>
 </section>
-
+      <Enhance/>
       <Footer/>
     </div>
   )

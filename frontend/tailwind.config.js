@@ -33,7 +33,8 @@ export default {
       },
       backgroundImage : {
         bio : "url('/images/TO.png')",
-        biogrey : "url('/images/TOgrey.png')"
+        biogrey : "url('/images/TOgrey.png')",
+        ley : "url('/images/to-purple.png')",
       },
       keyframes : {
         wiggle : {
