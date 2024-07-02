@@ -106,6 +106,13 @@ export const books = [
         link : "https://www.amazon.co.uk/gp/product/B0C6BJ37YX/"
     },
     {
+        img1 : '/images/bookCoverImgs/loveFront.png',
+        img2 : '/images/bookCoverImgs/loveBack.png',
+        bookName : 'Love Conviction & Risk',
+        brief : "This book is about a woman who started as an unbeliever and through the process of conversion, she rose to greatness because she has conviction. Life is a risk and we need guidance from God’s word to take risks in life, missing the opportunity to take risks can result in a life of regret.",
+        link : "https://www.amazon.co.uk/Love-Conviction-Risk-Temitope-Odetunde/dp/1739589726/?_encoding=UTF8&pd_rd_w=1Kf1O&content-id=amzn1.sym.22d9a84f-7f3b-4184-a0b0-a2bfb7ac40c1&pf_rd_p=22d9a84f-7f3b-4184-a0b0-a2bfb7ac40c1&pf_rd_r=258-9805511-0819361&pd_rd_wg=rGfVy&pd_rd_r=6d093d7e-06ec-4605-b4e9-ea9d8b662085&ref_=aufs_ap_sc_dsk"
+    },
+    {
         img1 : '/images/bookCoverImgs/earthquake.png',
         img2 : '/images/bookCoverImgs/earthquake.png',
         bookName : 'Earthquake',

@@ -9,7 +9,7 @@ const Enhance = () => {
           Your Life?
           </h1>
           <p className='text-lg md:text-xl lg:text-2xl'>
-          Start your journey towards growth and purpose today!
+          Book a Free Consultation Call With Me Now!
           </p>
           <div className='md:pt-4 lg:pt-7'>
             <Link className='bg-purple text-grey-100 font-inter font-semibold px-4 py-3 lg:px-6 lg:py-4 text-sm md:text-base rounded-2xl hover:text-purple hover:border hover:border-purple hover:bg-white transition-all duration-700 ease-in-out' to='https://selar.co/m/temitope-odetunde1' target='_blank'>
