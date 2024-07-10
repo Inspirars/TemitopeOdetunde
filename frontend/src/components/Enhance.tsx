@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import temiEnhance from '../assets/temiElevate.png'
 const Enhance = () => {
   return (
-    <div className='bg-ley bg-[#F1E5FF] bg-no-repeat bg-contain bg-bottom md:bg-right flex flex-col md:flex-row items-center justify-between pl-5 md:pl-16 lg:pl-28 pt-6 mt-12 md:mt-20 lg:mt-28 mb-12 lg:mb-14'>
+    <div className='bg-ley bg-[#F1E5FF] bg-no-repeat bg-75 md:bg-contain bg-bottom md:bg-right flex flex-col md:flex-row items-center justify-between pl-5 md:pl-16 lg:pl-28 pt-6 mt-12 md:mt-20 lg:mt-28 mb-12 lg:mb-14'>
         <div className='text-[#1B1B28] font-satoshi space-y-3'>
           <h1 className='text-2xl md:text-4xl lg:text-[64px] lg:leading-[68px]  font-bold'>
           Ready to Elevate <br />
