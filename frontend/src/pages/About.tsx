@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import Enhance from "../components/Enhance"
 import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
@@ -91,9 +92,9 @@ const About = () => {
         <p className="text-lg md:text-2xl lg:text-[clamp(24px,2.22vw,32px)] text-[#000] lg:leading-10 font-normal md:w-[60%] lg:w-[70%] text-balance ">
         I run a consulting firm called RIOS-INFLUENCIA which offers consulting, training, and education services to healthcare professionals, and facilities, with the aim of bridging hospital and home care to offer holistic patient centric care, improve patient outcomes, and break the cycle of revolving door patients.
         </p>
-        <button className="bg-purple text-white rounded px-4 py-3 md:py-4 md:px-5"> 
+        <Link to='https://www.rios-influencia.com/' target="_blank" className="bg-purple text-white rounded px-4 py-3 md:py-4 md:px-5"> 
           Visit RIOS
-        </button>
+        </Link>
       </section>
     </section>
     <Enhance/>
