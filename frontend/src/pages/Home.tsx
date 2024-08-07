@@ -69,12 +69,13 @@ const Home: React.FC = () => {
         As a mentor in personal development, I support individuals in aligning their professional goals with their spiritual values. Together, we embark on a journey towards excellence, driven by passion, expertise, and unwavering faith.
       </p>
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-16 mt-12 lg:mt-16 text-[#D0D5DD] text-lg md:text-2xl">
+        
         <p><li>Career</li></p>
         <p><li>Author and Speaker</li></p>
         <p><li>Coaching and Mentoring</li></p>
         <p><li>Medicines Management Consultant</li></p>
         <p><li>Regulatory and Compliance Specialist</li></p>
-        <p><li>Develop and Review Medicines Policies and Procedures</li></p>
+        <p>Develop and Review Medicines Policies and <br /> Procedures</p>
         <p>
           <li>Review Educational Provider's Training Materials
           </li>

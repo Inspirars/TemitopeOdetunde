@@ -47,7 +47,7 @@ function sendConfirmationMail(res,fullName, phoneNumber, email, service, need){
 
     const subOptions = {
       from : 'Info@temitopeodetunde.com',
-      to : 'momoh.oladimeji@gmail.com',
+      to : 'Topeodetunde@hotmail.com',
       subject: 'New Contact',
       html : renderedHtml
     }

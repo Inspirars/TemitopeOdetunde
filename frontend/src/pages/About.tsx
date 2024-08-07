@@ -12,10 +12,16 @@ const About = () => {
         <h1 className="flex items-center font-medium text-[#231F20] text-2xl md:text-3xl lg:text-[clamp(35px,2.77vw,40px)] lg:leading-10">
             Hi<div className="animate-wiggle">👋🏻</div>I'm Temitope Odetunde 
         </h1>
-        <p className="font-normal text-sm md:text-sm lg:text-[clamp(16px,1.388vw,20px)] lg:leading-7 pt-6">
-        Temitope Odetunde is a Pharmacist by profession, with extensive experience across various roles within the healthcare system. She has worked as a Clinical Pharmacist in Acute Hospital settings, a Pharmacy Practice Lecturer at NHS 111 Academia, a CQC Inspector, and the Head of Medicines Management in Community Services. Temitope brings a wealth of knowledge and expertise to her professional endeavors.
+        <p className="font-normal text-sm md:text-sm lg:text-[clamp(16px,1.388vw,20px)] lg:leading-7 pt-6 text-justify">
+        Temitope Odetunde is a Pharmacist by profession, with extensive experience across various roles within the healthcare system. She has worked as a Clinical Pharmacist in Acute Hospital settings, a Pharmacy Practice Lecturer at NHS 111 Academia, a CQC Inspector, and the Head of Medicines Management in Community Services. <br />
+        <span className="mt-5 md:mt-10">
+        Temitope brings a wealth of knowledge and expertise to her professional endeavors.
         Beyond her professional achievements, Temitope believes in authentic Christianity, which she defines as a journey that begins with receiving Christ (salvation), knowing the truth (transformation), and experiencing the freedom that comes from this truth. She emphasizes that only through this complete process can one be an authentic Christian.
+        </span>
+        <br />
+        <span className="mt-5 md:mt-10">
         She is the voice behind Ambassador in the Marketplace, a broadcast where she interviews Christians making a difference in the marketplace. She also has AIM merchandise on Etsy.
+        </span>
         </p>
     </div>
   </section>
@@ -89,7 +95,7 @@ const About = () => {
     </section>
     <section className="px-5 md:px-14 lg:px-[86px] lg:flex lg:justify-center">
       <section className="py-14 md:py-20 lg:pt-0 lg:pb-[138px] lg:px-36 flex flex-col gap-7 md:flex-row items-start md:items-center md:gap-12 lg:gap-[clamp(50px,4.583vw,66px)]">
-        <p className="text-lg md:text-2xl lg:text-[clamp(24px,2.22vw,32px)] text-[#000] lg:leading-10 font-normal md:w-[60%] lg:w-[70%] text-balance ">
+        <p className="text-lg md:text-2xl lg:text-[clamp(24px,2.22vw,32px)] text-[#000] lg:leading-10 font-normal md:w-[60%] lg:w-[70%] text-justify">
         I run a consulting firm called RIOS-INFLUENCIA which offers consulting, training, and education services to healthcare professionals, and facilities, with the aim of bridging hospital and home care to offer holistic patient centric care, improve patient outcomes, and break the cycle of revolving door patients.
         </p>
         <Link to='https://www.rios-influencia.com/' target="_blank" className="bg-purple text-white rounded px-4 py-3 md:py-4 md:px-5"> 
