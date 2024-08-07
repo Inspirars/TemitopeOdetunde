@@ -22,7 +22,7 @@ const Taim = () => {
             Join Community
         </Link>
         <Link to="https://www.linkedin.com/pulse/copy-interview-police-constable-olaniyi-opaleye-temitope-odetunde-vvjle?utm_source=share&utm_medium=member_android&utm_campaign=share_via " target="_blank" className="text-sm md:text-lg px-3 py-2 md:px-5 md:py-4 rounded-lg font-semibold  text-purple border border-purple hover:bg-grey-100 hover:text-purple transition-all duration-700">
-            Interview Highlights
+            AIM Newsletter Highlights
         </Link>
     </div>
 </main>

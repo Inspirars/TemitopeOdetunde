@@ -5,6 +5,8 @@ import {DateTime} from 'luxon'
 import { useEffect, useState } from "react"
 import {Swiper, SwiperSlide} from 'swiper/react';
 import { Autoplay } from "swiper/modules";
+import bulletWhite from "../assets/bullet-point-white.svg"
+import bulletBlack from "../assets/bullet-point.svg"
 
 
 import 'swiper/css';
@@ -69,17 +71,36 @@ const Home: React.FC = () => {
         As a mentor in personal development, I support individuals in aligning their professional goals with their spiritual values. Together, we embark on a journey towards excellence, driven by passion, expertise, and unwavering faith.
       </p>
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-16 mt-12 lg:mt-16 text-[#D0D5DD] text-lg md:text-2xl">
-        
-        <p><li>Career</li></p>
-        <p><li>Author and Speaker</li></p>
-        <p><li>Coaching and Mentoring</li></p>
-        <p><li>Medicines Management Consultant</li></p>
-        <p><li>Regulatory and Compliance Specialist</li></p>
+      <div className="flex items-center gap-4">
+        <div className="w-2 h-2 rounded-full bg-white " />
+        <p>Career</p>
+      </div>
+      <div className="flex items-center gap-4">
+        <div className="w-2 h-2 rounded-full bg-white " />
+        <p>Author and Speaker</p>
+      </div>
+      <div className="flex items-center gap-4">
+        <div className="w-2 h-2 rounded-full bg-white " />
+        <p>Coaching and Mentoring</p>
+      </div>
+      <div className="flex items-center gap-4">
+        <div className="w-2 h-2 rounded-full bg-white " />
+        <p>Medicines Management Consultant</p>
+      </div>
+      <div className="flex items-center gap-4">
+        <div className="w-2 h-2 rounded-full bg-white " />
+        <p>Regulatory and Compliance Specialist</p>
+      </div>
+      <div className="flex items-center gap-4">
+        <div className="w-2 h-2 rounded-full bg-white " />
         <p>Develop and Review Medicines Policies and <br /> Procedures</p>
+      </div>
+      <div className="flex items-center gap-4">
+        <div className="w-2 h-2 rounded-full bg-white " />
         <p>
-          <li>Review Educational Provider's Training Materials
-          </li>
+          Review Educational Provider's Training Materials
         </p>
+      </div>
       </div>
 
     </section>
@@ -315,7 +336,7 @@ const Home: React.FC = () => {
         <h2 className="text-2xl lg:text-[32px] font-bold">
           Contact me via
         </h2>
-        <Link to="mailto:topeodetunde@hotmail.com" target="_blank" className="flex items-center gap-4" >
+        <Link to="mailto:info@temitopeodetunde.com" target="_blank" className="flex items-center gap-4" >
           <img src="/images/Letter.svg" alt="letter"/>info@temitopeodetunde.com
         </Link>
         <Link to="tel:+447838374496" target="_blank" className="flex items-center gap-4">
