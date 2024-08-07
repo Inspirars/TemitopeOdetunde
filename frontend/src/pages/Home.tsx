@@ -5,8 +5,8 @@ import {DateTime} from 'luxon'
 import { useEffect, useState } from "react"
 import {Swiper, SwiperSlide} from 'swiper/react';
 import { Autoplay } from "swiper/modules";
-import bulletWhite from "../assets/bullet-point-white.svg"
-import bulletBlack from "../assets/bullet-point.svg"
+// import bulletWhite from "../assets/bullet-point-white.svg"
+// import bulletBlack from "../assets/bullet-point.svg"
 
 
 import 'swiper/css';
