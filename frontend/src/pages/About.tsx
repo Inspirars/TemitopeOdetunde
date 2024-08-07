@@ -14,14 +14,13 @@ const About = () => {
         </h1>
         <p className="font-normal text-sm md:text-sm lg:text-[clamp(16px,1.388vw,20px)] lg:leading-7 pt-6 text-justify">
         Temitope Odetunde is a Pharmacist by profession, with extensive experience across various roles within the healthcare system. She has worked as a Clinical Pharmacist in Acute Hospital settings, a Pharmacy Practice Lecturer at NHS 111 Academia, a CQC Inspector, and the Head of Medicines Management in Community Services. <br />
-        <span className="mt-5 md:mt-10">
+        <div className="mt-3">
         Temitope brings a wealth of knowledge and expertise to her professional endeavors.
         Beyond her professional achievements, Temitope believes in authentic Christianity, which she defines as a journey that begins with receiving Christ (salvation), knowing the truth (transformation), and experiencing the freedom that comes from this truth. She emphasizes that only through this complete process can one be an authentic Christian.
-        </span>
-        <br />
-        <span className="mt-5 md:mt-10">
+        </div>
+        <div className="mt-3">
         She is the voice behind Ambassador in the Marketplace, a broadcast where she interviews Christians making a difference in the marketplace. She also has AIM merchandise on Etsy.
-        </span>
+        </div>
         </p>
     </div>
   </section>

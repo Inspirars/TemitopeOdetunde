@@ -18,10 +18,10 @@ const Taim = () => {
         <img src={aimlogo} alt=""/>
     </div>
     <div className="space-x-4">
-        <Link to="https://chat.whatsapp.com/JPA5BEZCojOFQNYHrK8OVy" target="_blank" className="text-sm md:text-lg px-3 py-2 md:px-5 md:py-4 rounded-lg font-semibold bg-purple text-white border border-purple hover:bg-grey-100 hover:text-purple transition-all duration-700">
+        <Link to="https://chat.whatsapp.com/JPA5BEZCojOFQNYHrK8OVy" target="_blank" className="text-xs md:text-lg px-3 py-2 md:px-5 md:py-4 rounded-lg font-semibold bg-purple text-white border border-purple hover:bg-grey-100 hover:text-purple transition-all duration-700">
             Join Community
         </Link>
-        <Link to="https://www.linkedin.com/pulse/copy-interview-police-constable-olaniyi-opaleye-temitope-odetunde-vvjle?utm_source=share&utm_medium=member_android&utm_campaign=share_via " target="_blank" className="text-sm md:text-lg px-3 py-2 md:px-5 md:py-4 rounded-lg font-semibold  text-purple border border-purple hover:bg-grey-100 hover:text-purple transition-all duration-700">
+        <Link to="https://www.linkedin.com/newsletters/ambassador-in-the-marketplace-7173037519788302336/" target="_blank" className="text-xs md:text-lg px-3 py-2 md:px-5 md:py-4 rounded-lg font-semibold  text-purple border border-purple hover:bg-grey-100 hover:text-purple transition-all duration-700">
             AIM Newsletter Highlights
         </Link>
     </div>
@@ -34,7 +34,7 @@ const Taim = () => {
   <h1 className="pb-14 lg:pb-24 text-[#E0E0E0] font-bold text-2xl md:text-4xl lg:text-[clamp(45px,3.88vw,56px)] lg:leading-[62px] lg:w-[58vw]">
     The vision of The Ambassador in the Marketplace (AIM) is to:
   </h1>
-  <div className="grid md:grid-cols-2 text-white gap-y-7 md:gap-x-14 md:gap-y-14 lg:gap-y-[clamp(80px,7.5vw,108px)] lg:gap-x-[clamp(150px,17vw,261px)] ">
+  <div className="grid md:grid-cols-2 text-white gap-y-7 md:gap-x-14 md:gap-y-14 lg:gap-y-[clamp(80px,7.5vw,108px)] lg:gap-x-[clamp(150px,17vw,261px)] justify-center">
     {visions.map(vision =>( 
       <p className="font-medium text-balance text-base lg:text-[clamp(18px,1.6vw,24px)]">{vision} </p>)
     )}
@@ -68,7 +68,7 @@ const Taim = () => {
       </Link>
     </div>
 </header>
-<div className="grid lg:grid-cols-2 lg:gap-x-[clamp(75px,6.66vw,96px)] lg:gap-y-20 gap-10">
+<div className="grid lg:grid-cols-2 lg:gap-x-[clamp(75px,6.66vw,96px)] lg:gap-y-20 gap-10 w-full">
   {values.map(value =>(<div className="flex items-start gap-5">
       <img src="/images/Verified.png" alt="" className="w-8"/>
       <p className="font-medium text-[#667185] text-base lg:text-[clamp(18px,1.6vw,24px)]">{value}</p>

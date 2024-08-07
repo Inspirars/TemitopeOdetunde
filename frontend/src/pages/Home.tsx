@@ -58,7 +58,7 @@ const Home: React.FC = () => {
         <h1 className="lg:text-[clamp(45px,4vw,64px)] font-bold text-black-200">
           Temitope Odetunde
         </h1>
-        <p className="text-xs lg:text-[clamp(16px,1.38vw,20px)] lg:leading-7 line-clamp-4 md:line-clamp-6 text-balance truncate ">
+        <p className="text-xs lg:text-[clamp(16px,1.38vw,20px)] lg:leading-7 line-clamp-4 md:line-clamp-6 text-wrap text-justify truncate ">
           Your guide to navigating the intersection of professional success and spiritual fulfillment. As a leading voice in pharmacy consultancy and faith-based personal development, Temitope blends her extensive expertise in the pharmaceutical industry with a deep-rooted commitment to Christian values. With Temitope, you'll discover a path to excellence in your career while staying true to your faith, driven by a passion for empowering individuals to achieve greatness in all aspects of their lives.
         </p>
         <Link to="/about" className="bg-black-200 border mt-3 border-black-200 text-white hover:bg-white hover:text-black-200 transition-all duration-700 py-2 px-3 md:py-4 md:px-5 rounded text-xs md:text-lg">
