@@ -47,9 +47,9 @@ const About = () => {
         <p className=" text-lg md:text-2xl lg:text-[clamp(24px,2.22vw,32px)] text-[#667185] lg:leading-10 font-normal md:w-[60%] lg:w-[70%] text-balance ">
           She wrote her first book <span className="text-purple font-medium">“Worship Brings Rain”</span> in 2019, which originate from her arduous pursuit to establish the direction in which God was guiding her. She is enthusiastic about serving God and his people in her local church and local people.
         </p>
-        <button className="bg-black-200 border border-black-200 text-white hover:bg-white hover:text-black-200 transition-all duration-700 py-2 px-3 md:py-4 md:px-5 rounded text-xs md:text-lg">
+        <Link to='https://www.amazon.co.uk/stores/author/B09ZPZNWNT/allbooks?ingress=0&visitId=6607d66d-0205-4609-97bf-b9d9491e0a5c&ref_=ap_rdr' target="_blank" className="bg-black-200 border border-black-200 text-white hover:bg-white hover:text-black-200 transition-all duration-700 py-2 px-3 md:py-4 md:px-5 rounded text-xs md:text-lg">
           Visit Book Store
-      </button>
+      </Link>
       </section>
     </section>
     <section className="pb-20 md:pb-20 lg:pb-36 px-5 md:px-14 lg:px-[86px]">
