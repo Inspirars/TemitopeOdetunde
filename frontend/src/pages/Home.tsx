@@ -1,14 +1,15 @@
-import { Link } from "react-router-dom"
+import { Link, useLocation} from "react-router-dom"
 import { market,comments,bookCovers,merch } from "../constants"
 import axios from "axios"
 import {DateTime} from 'luxon'
 import { useEffect, useState } from "react"
 import {Swiper, SwiperSlide} from 'swiper/react';
 import { Autoplay } from "swiper/modules";
-// import bulletWhite from "../assets/bullet-point-white.svg"
-// import bulletBlack from "../assets/bullet-point.svg"
-
-
+import linkedin from "../assets/linkedin.svg"
+import x from "../assets/twitter.svg"
+import ig from "../assets/ig.svg"
+import fb from "../assets/fb.svg"
+import tiktok from "../assets/tiktok.svg"
 import 'swiper/css';
 import 'swiper/css/autoplay'
 import Navbar from "../components/Navbar";
@@ -19,6 +20,8 @@ import Enhance from "../components/Enhance"
 const Home: React.FC = () => {
   const [blog, setBlog] = useState([]);
   const [loading, setLoading] = useState(false);
+  const element = useLocation()
+
   useEffect( ()=>{
     setLoading(true)
     axios.get('https://temitope-server.vercel.app/api/home')
@@ -32,6 +35,15 @@ const Home: React.FC = () => {
     )
 
   },[])
+
+  useEffect(()=>{
+    console.log(loading)
+    if(element.hash && !loading){
+      const newElement = element.hash.slice(1)
+      console.log(newElement)
+      document.getElementById(`${newElement}`)!.scrollIntoView({ block : 'end', behavior : "instant"});
+    }
+  },[element.hash, loading])
   return (<>
   {loading ? <LoadingScreen/> : (<>
     <Navbar/>
@@ -172,9 +184,10 @@ const Home: React.FC = () => {
       }
       >
           {comments.map((commentus) => (
-            <SwiperSlide className="swiper-slide swipery  bg-white px-10 py-[61px] rounded-[30px] text-[#475367] cursor-pointer slidey" key={commentus.name} >
+            <SwiperSlide className="swiper-slide swipery bg-white px-10 py-[61px] rounded-[30px] text-[#475367] cursor-pointer slidey" key={commentus.name} >
               <h3 className="mb-5 text-lg md:text-2xl font-normal">{commentus.comment}</h3>
               <h2 className="font-bold text-lg md:text-2xl line-clamp-3 truncate" >{commentus.name}</h2>
+              <h2 className="font-normal text-lg md:text-2xl line-clamp-3 truncate" >{commentus?.title}</h2>
             </SwiperSlide>
           ))}
       </Swiper>
@@ -328,7 +341,7 @@ const Home: React.FC = () => {
       </Swiper>
     </section>
     <Enhance/>
-    <section className="bg-[#FFF3E1] px-5 md:px-14 lg:px-24 py-12 lg:py-28 font-satoshi grid grid-cols-1 lg:grid-cols-5 gap-5 mb-14 lg:mb-28">
+    <section className="bg-[#FFF3E1] px-5 md:px-14 lg:px-24 py-12 lg:py-28 font-satoshi grid grid-cols-1 lg:grid-cols-5 gap-5 mb-14 lg:mb-28" id="contact-me">
       <div className="bg-[#FAAF40] bg-bio bg-tope bg-100 bg-no-repeat lg:col-start-1 lg:col-end-4 flex justify-center  max-h-[500px] rounded-xl" >
         <img src="/images/contactDp.png" alt="" className="lg:w-[49.9vw] object-contain" />
       </div>
@@ -342,6 +355,23 @@ const Home: React.FC = () => {
         <Link to="tel:+447838374496" target="_blank" className="flex items-center gap-4">
           <img src="/images/Phone.svg" alt="Phone"/> +447838374496
         </Link>
+        <div className="flex items-center gap-4">
+          <Link to='https://www.linkedin.com/in/temitope-odetunde' target="_blank">
+            <img src={linkedin} alt="" />
+          </Link>
+          <Link to='https://x.com/todetunde' target="_blank">
+            <img src={x} alt="" />
+          </Link>
+          <Link to='https://www.instagram.com/odetunde.top/' target="_blank">
+            <img src={ig} alt="" />
+          </Link>
+          <Link to='https://www.facebook.com/odetunde.top?mibextid=LQQJ4d' target="_blank">
+            <img src={fb} alt="" />
+          </Link>
+          <Link to='https://www.tiktok.com/@topeodetunde' target="_blank">
+            <img src={tiktok} alt="" />
+          </Link>
+        </div>
       </div>
     </section>
   </div>

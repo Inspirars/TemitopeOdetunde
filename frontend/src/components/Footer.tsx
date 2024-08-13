@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom"
+import { HashLink } from 'react-router-hash-link';
+
 
 const Footer = () => {
   return (
@@ -23,6 +25,9 @@ const Footer = () => {
         <Link to="/gallery">
           <li>Gallery</li>
         </Link>
+        <HashLink smooth to="/#contact-me">
+          <li>Contact Me</li>
+        </HashLink>
       </ul>
 </footer>
   )

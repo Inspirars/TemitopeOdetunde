@@ -15,26 +15,27 @@ export const comments = [
     {
         comment : "“Thank you for taking part in our annual Aspirations Day. We feel it is so beneficial for our children to understand that what they are doing now will help them when they are looking for a job in the future.",
         name : "Ben Kennor",
+        title : ''
     },
     {
         comment : "“Whoa sis! Your book is full of life! Really deep. I was blessed by the indepth research, teaching and revelation. God bless you. Finished it before I got home. Greater is coming…well done!!",
         name : "Belema Alamina",
+        title : ''
     },
     {
         comment : "“Can’t wait oo, I know it’s loaded coz I keep rereading your last book Worship Brings Rain",
         name : "Fatima Kumba ",
+        title : ''
     },
     {
-        comment : "“This  book made me reflect on my own worship and whether it matches that of heavenly worship. I did not want it to end. I’m so proud of you. Can’t wait to read the second book",
-        name : "Sharon Maquis",
+        comment : "“I want to express my sincere appreciation for taking your time to coach me for my interview, I'm still so short of words on how to express my appreciation. 4 of the questions you asked me was asked at my interview. One of the best interview so far.”",
+        name : "Ibitola Omotola",
+        title : 'Msc CAMHS, BSc Psych'
     },
     {
-        comment : "“I find the book to be concise yet very insightful. The analogy with the rain and linking it with worship was an eye opener. I have already recommended the book to my family and loved ones. Well done sis Tope",
-        name : "Martina Oboh",
-    },
-    {
-        comment : "“Both books are such lovely reads. I like your simple but detailed explanations. Quite thought-provoking too for Christians eager to live Christ-like lives in these interesting times. Thanks for sharing your gift with the world.",
-        name : "Temilolu Soares",
+        comment : "“I highly recommend Temitope to anyone looking to take themselves to new heights. Her expertise, professionalism, and passion for what she does makes her a true asset to the world. I look forward to the opportunity to work with her more”",
+        name : "Amarachukwu Ruth",
+        title : 'CPLP'
     },
 ]
 

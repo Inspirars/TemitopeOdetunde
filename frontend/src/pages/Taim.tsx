@@ -34,9 +34,9 @@ const Taim = () => {
   <h1 className="pb-14 lg:pb-24 text-[#E0E0E0] font-bold text-2xl md:text-4xl lg:text-[clamp(45px,3.88vw,56px)] lg:leading-[62px] lg:w-[58vw]">
     The vision of The Ambassador in the Marketplace (AIM) is to:
   </h1>
-  <div className="grid md:grid-cols-2 text-white gap-y-7 md:gap-x-14 md:gap-y-14 lg:gap-y-[clamp(80px,7.5vw,108px)] lg:gap-x-[clamp(150px,17vw,261px)] justify-center">
+  <div className="flex flex-wrap text-white gap-y-7 md:gap-x-14 md:gap-y-14 lg:gap-y-[clamp(80px,7.5vw,108px)] lg:gap-x-[clamp(150px,17vw,261px)] justify-center">
     {visions.map(vision =>( 
-      <p className="font-medium text-balance text-base lg:text-[clamp(18px,1.6vw,24px)]">{vision} </p>)
+      <p className="font-medium text-balance text-base lg:text-[clamp(18px,1.6vw,24px)] md:w-[320px]">{vision} </p>)
     )}
   </div>
 </section>
@@ -68,10 +68,10 @@ const Taim = () => {
       </Link>
     </div>
 </header>
-<div className="grid lg:grid-cols-2 lg:gap-x-[clamp(75px,6.66vw,96px)] lg:gap-y-20 gap-10 w-full">
-  {values.map(value =>(<div className="flex items-start gap-5">
+<div className="flex flex-wrap justify-center lg:gap-x-[clamp(75px,6.66vw,96px)] lg:gap-y-20 gap-10 w-full">
+  {values.map(value =>(<div className="flex items-start gap-5 md:w-[450px]">
       <img src="/images/Verified.png" alt="" className="w-8"/>
-      <p className="font-medium text-[#667185] text-base lg:text-[clamp(18px,1.6vw,24px)]">{value}</p>
+      <p className="font-medium text-[#667185] text-base lg:text-[clamp(18px,1.6vw,24px)] text-justify">{value}</p>
     </div>)
   )}
 </div>
