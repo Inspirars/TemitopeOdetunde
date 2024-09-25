@@ -15,17 +15,17 @@ export const comments = [
     {
         comment : "“Thank you for taking part in our annual Aspirations Day. We feel it is so beneficial for our children to understand that what they are doing now will help them when they are looking for a job in the future.",
         name : "Ben Kennor",
-        title : ''
+        title : 'Ass. Head Teacher, St Fidellis Sch.'
     },
     {
         comment : "“Whoa sis! Your book is full of life! Really deep. I was blessed by the indepth research, teaching and revelation. God bless you. Finished it before I got home. Greater is coming…well done!!",
         name : "Belema Alamina",
-        title : ''
+        title : 'Corporate Service Officer, UK'
     },
     {
         comment : "“Can’t wait oo, I know it’s loaded coz I keep rereading your last book Worship Brings Rain",
         name : "Fatima Kumba ",
-        title : ''
+        title : 'Ceo Motherhood Healthcare'
     },
     {
         comment : "“I want to express my sincere appreciation for taking your time to coach me for my interview, I'm still so short of words on how to express my appreciation. 4 of the questions you asked me was asked at my interview. One of the best interview so far.”",
@@ -37,6 +37,27 @@ export const comments = [
         name : "Amarachukwu Ruth",
         title : 'CPLP'
     },
+    {
+        comment : "“Thanks for another great session. And thank you Dr. Seye for sharing your knowledge and journey”",
+        name : "David Anjonrin-Ohu",
+        title : 'MBA, FCMI'
+    },
+    {
+        comment : "“Thank you for hosting this insightful discussion on Christainity in the workplace. It's inspiring to explore how we can embody our faith through actions rather than words. I look forward to learning practical strategies for fostering a positive workplace culture rooted in Christian values”",
+        name : "Gracia Kuria",
+        title : 'Healthcare Specialist'
+    },
+    {
+        comment : "“That's speaking to me.... BE BOLD ABOUT MY FAITH IN GOD ”",
+        name : "Barbara Young-Utiaruk",
+        title : 'Empowering Early Career Moms'
+    },
+    {
+        comment : "“I believe there is a reason this came up on my feed!!   It's my time ”",
+        name : "Kim Graeff",
+        title : 'HR Lead North America'
+    },
+    
 ]
 
 export const bookCovers = [
@@ -87,7 +108,7 @@ export const merch = [
 export const books = [
     {
         img1 : '/images/bookCoverImgs/ambassadors.svg',
-        img2 : '/images/bookCoverImgs/ambassadors.svg',
+        img2 : '/images/bookCoverImgs/ambassadorBack.jpg',
         bookName : 'The Ambassador',
         brief : "Samuel Dagunduro's book offers a concise study on being a soldier for Christ, addressing topics often overlooked in today's discussions. Just as an active-duty soldier serves full-time, our lives as disciples revolve around defending the kingdom of God, entitling us to its benefits.",
         link : "https://www.amazon.co.uk/dp/1739590503/"
@@ -101,7 +122,7 @@ export const books = [
     },
     {
         img1 : '/images/bookCoverImgs/dove.png',
-        img2 : '/images/bookCoverImgs/dove.png',
+        img2 : '/images/bookCoverImgs/doveBack.jpg',
         bookName : 'A Shrewd White Dove',
         brief : "One Sunday evening, I listened to Apostle Joshua Selman discuss Matthew 10:16, urging us to reflect on why Jesus advises us to be as shrewd as snakes while remaining innocent as doves.  “I am sending you out like sheep among wolves, therefore be as shrewd as snakes and innocent as a dove.”",
         link : "https://www.amazon.co.uk/gp/product/B0C6BJ37YX/"
@@ -115,14 +136,14 @@ export const books = [
     },
     {
         img1 : '/images/bookCoverImgs/earthquake.png',
-        img2 : '/images/bookCoverImgs/earthquake.png',
+        img2 : '/images/bookCoverImgs/earthquakeBack.jpg',
         bookName : 'Earthquake',
         brief : "Earthquake is a book birth after the last October 2022 Halleluiah Challenge, a platform for worldwide worship experience with the convener Pastor Nathaniel Bassey a Nigerian singer, trumpeter and gospel songwriter. The bible passage used during the programme was Act 16:25-26.",
         link : "https://www.amazon.co.uk/gp/product/B0C4J2JM5J/"
     },
     {
         img1 : '/images/bookCoverImgs/AmazingLove.png',
-        img2 : '/images/bookCoverImgs/AmazingLove.png',
+        img2 : '/images/bookCoverImgs/loveBack.jpg',
         bookName : 'Amazing Love',
         brief : "I reflected on believers being the bride of Christ and His sacrificial love, pondering what it truly means for Him to give Himself. John 3:16 CEV beautifully portrays this love, showing God's sacrifice of His Son for eternal life.",
         link : "https://www.amazon.co.uk/gp/product/B0C5N74ZT5/"

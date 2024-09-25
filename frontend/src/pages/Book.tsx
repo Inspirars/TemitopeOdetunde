@@ -18,8 +18,8 @@ const Book = () => {
         {books.map(book =>(
             <div className="pb-24 md:pb-36 lg:pb-48 grid grid-cols-1 lg:grid-cols-2 lg:gap-24">
                 <div className="grid grid-cols-2 gap-3 md:gap-6   justify-center">
-                    <img className="book w-full " src={book.img1} alt="book cover" />
-                    <img className="book w-full " src={book.img2} alt="book cover"/>
+                    <img className="book w-full h-full" src={book.img1} alt="book cover" />
+                    <img className="book w-full h-full" src={book.img2} alt="book cover"/>
                 </div>
                 <div>
                     <h2 className="text-[#000] pt-9 lg:pt-0 pb-4 md:pb-6 text-2xl md:text-3xl lg:text-[40px] font-medium">
