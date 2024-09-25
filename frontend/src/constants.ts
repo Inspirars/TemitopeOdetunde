@@ -28,7 +28,7 @@ export const comments = [
         comment : "“Can’t wait oo, I know it’s loaded coz I keep rereading your last book Worship Brings Rain",
         name : "Fatima Kumba ",
         tag : "Book Review",
-        title : 'Ceo Motherhood Healthcare'
+        title : 'CEO Motherhood Healthcare'
     },
     {
         comment : "“I want to express my sincere appreciation for taking your time to coach me for my interview, I'm still so short of words on how to express my appreciation. 4 of the questions you asked me was asked at my interview. One of the best interview so far.”",
