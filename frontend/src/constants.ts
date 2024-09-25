@@ -15,46 +15,55 @@ export const comments = [
     {
         comment : "“Thank you for taking part in our annual Aspirations Day. We feel it is so beneficial for our children to understand that what they are doing now will help them when they are looking for a job in the future.",
         name : "Ben Kennor",
+        tag : "Professional Expertise",
         title : 'Ass. Head Teacher, St Fidellis Sch.'
     },
     {
         comment : "“Whoa sis! Your book is full of life! Really deep. I was blessed by the indepth research, teaching and revelation. God bless you. Finished it before I got home. Greater is coming…well done!!",
         name : "Belema Alamina",
+        tag : "Book Review",
         title : 'Corporate Service Officer, UK'
     },
     {
         comment : "“Can’t wait oo, I know it’s loaded coz I keep rereading your last book Worship Brings Rain",
         name : "Fatima Kumba ",
+        tag : "Book Review",
         title : 'Ceo Motherhood Healthcare'
     },
     {
         comment : "“I want to express my sincere appreciation for taking your time to coach me for my interview, I'm still so short of words on how to express my appreciation. 4 of the questions you asked me was asked at my interview. One of the best interview so far.”",
         name : "Ibitola Omotola",
+        tag : "Professional Expertise",
         title : 'Msc CAMHS, BSc Psych'
     },
     {
         comment : "“I highly recommend Temitope to anyone looking to take themselves to new heights. Her expertise, professionalism, and passion for what she does makes her a true asset to the world. I look forward to the opportunity to work with her more”",
         name : "Amarachukwu Ruth",
+        tag : "Professional Expertise",
         title : 'CPLP'
     },
     {
         comment : "“Thanks for another great session. And thank you Dr. Seye for sharing your knowledge and journey”",
         name : "David Anjonrin-Ohu",
+        tag : "AIM Review",
         title : 'MBA, FCMI'
     },
     {
-        comment : "“Thank you for hosting this insightful discussion on Christainity in the workplace. It's inspiring to explore how we can embody our faith through actions rather than words. I look forward to learning practical strategies for fostering a positive workplace culture rooted in Christian values”",
+        comment : "“Thank you for hosting this insightful discussion on Christainity in the workplace. It's inspiring to explore how we can embody our faith through actions rather than words. ”",
         name : "Gracia Kuria",
+        tag : "AIM Review",
         title : 'Healthcare Specialist'
     },
     {
         comment : "“That's speaking to me.... BE BOLD ABOUT MY FAITH IN GOD ”",
         name : "Barbara Young-Utiaruk",
+        tag : "AIM Review",
         title : 'Empowering Early Career Moms'
     },
     {
         comment : "“I believe there is a reason this came up on my feed!!   It's my time ”",
         name : "Kim Graeff",
+        tag : "AIM Review",
         title : 'HR Lead North America'
     },
     
