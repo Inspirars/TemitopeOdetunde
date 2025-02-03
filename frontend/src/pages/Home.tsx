@@ -199,9 +199,9 @@ const Home: React.FC = () => {
         <h4 className="text-[#4B587C] lg:w-[49%] text-xl md:text-[clamp(20px,2.222vw,32px)]">
           Whether you're seeking professional guidance, personal growth insights, or spiritual enrichment, our library has something for everyone.
         </h4>
-        <button className="bg-black-200 border border-black-200 text-white hover:bg-white hover:text-black-200 transition-all duration-700 py-2 px-3 md:py-4 md:px-5 rounded text-xs md:text-lg ">
+        <Link target="_blank" to='https://www.amazon.co.uk/stores/author/B09ZPZNWNT/allbooks?ingress=0&visitId=0bd1183d-303b-40c3-86b8-3b6cb55872b8&ref_=ap_rdr' className="bg-black-200 border border-black-200 text-white hover:bg-white hover:text-black-200 transition-all duration-700 py-2 px-3 md:py-4 md:px-5 rounded text-xs md:text-lg ">
           Visit Book Store
-        </button>
+        </Link>
       </div>
       <div>
         <div className="lg:hidden mt-10">
