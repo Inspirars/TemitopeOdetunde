@@ -185,7 +185,8 @@ const Home: React.FC = () => {
       >
           {comments.map((commentus) => (
             <SwiperSlide className="swiper-slide swipery bg-white px-10 py-[61px] rounded-[30px] text-[#475367] cursor-pointer slidey" key={commentus.name} >
-              <h3 className="mb-5 text-lg md:text-2xl font-normal">{commentus.comment}</h3>
+              <h3 className="mb-2 text-lg md:text-2xl font-normal">{commentus.comment}</h3>
+              <p className="bg-[#F2E5FF] rounded-md mt-1 md:mt-3 mb-3 py-1 px-2 w-fit text-purple text-xs md:text-sm font-medium">{commentus.tag}</p> 
               <h2 className="font-bold text-lg md:text-2xl line-clamp-3 truncate" >{commentus.name}</h2>
               <h2 className="font-normal text-lg md:text-2xl line-clamp-3 truncate" >{commentus?.title}</h2>
             </SwiperSlide>
