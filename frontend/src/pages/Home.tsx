@@ -50,14 +50,14 @@ const Home: React.FC = () => {
     <div className="overflow-x-hidden">
     <section className=" bg-grey-100 px-5 pt-24 pb-11 lg:pt-44 lg:py-[clamp(85px,15.62vh,174px)] lg:pl-[clamp(85px,8.125vw,117px)] font-satoshi flex relative">
       <div>
-        <h1 className="text-3xl md:text-5xl lg:text-[clamp(70px,7vw,120px)] leading-none font-extrabold">
-          EMPOWERING <br/> CAREERS, <br/> ENRICHING SOULS.
+        <h1 className="text-3xl md:text-5xl lg:text-[clamp(75px,8vw,120px)] leading-none font-extrabold">
+          Empowering <br/> Careers, <br/> Enriching Souls.
         </h1>
         <p className="mt-6 lg:mt-[clamp(20px,5.54vh,48px)] lg:text-3xl font-normal md:w-[80%] lg:w-[75%] text-balance">
           I work with individuals to discover their unique path to career fulfilment and finding the greatest version of themselves.
         </p>
       </div>
-      <div className="absolute w-24 top-16 md:w-36 lg:w-[200px] lg:top-[150px] right-10 lg:right-32">
+      <div className="absolute w-20 top-24 md:w-36 lg:w-[200px] lg:top-[150px] right-10 lg:right-36">
         <img src="/images/home.gif" alt="" className="w-full"/>
       </div>
     </section>
